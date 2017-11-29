@@ -1,123 +1,103 @@
-# Harmony
+# 🏆 – A Blog Theme for Jekyll
+Trophy is a blog theme for Jekyll built using HTML, Sass, and JavaScript (no jQuery). External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Rellax, and WOW.js.
+Trophy is also available in [Ghost](https://github.com/thomasvaeth/trophy-ghost).
 
-Harmony is a responsive jekyll theme. 
+## Screenshots
+Blog Page (Posts)
+![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-1.png "Desktop screenshot")
 
-- Built for jekyll 2.x
-- Supports Google analytics and RSS feeds
-- Sass based styles
-- Browser support: IE 8+, Chrome, Safari and Firefox 
-- Fluidly responsive 
+Blog Page (Categories)
+![Blog Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-2.png "Desktop screenshot")
 
-## Contents
+Post Page (Mast)
+![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-3.png "Desktop screenshot")
 
-- [Harmony](#harmony)
-- [About Jekyll](#about-jekyll)
-- [How to install/run](#how-to-installrun)
-- [Options/Usage](#optionsusage)
-  - [Header navigation links](#header-navigation-links)
-  - [Footer links](#footer-links)
-  - [Copyrights/Disclaimer statements](#copyrightsdisclaimer-statements)
-- [Screenshots](#screenshots)
-- [Feedback/Bugs/Suggestions](#feedbackbugssuggestions)
-- [Version history](#version-history)
-- [License](#license)
+Post Page (Profile & Footer)
+![Post Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-4.png "Desktop screenshot")
 
-## About jekyll 
+Archive Page
+![Archive Page](https://github.com/thomasvaeth/trophy-jekyll/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
 
-[Jekyll](http://jekyllrb.com/) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+## Installation
+All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
 
-## How to install/run
+## Edit Theme
+I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
 
-1. [Fork](https://github.com/web-create/harmony/fork) this repository.
-2. Clone it: git clone https://github.com/YOUR-USERNAME/harmony.
-3. If you're completely new to jekyll, please read more about [Jekyll](http://jekyllrb.com/) and [Github pages](https://help.github.com/articles/using-jekyll-with-pages).
-4. Change your directory into cloned repository. 
-5. Run `bundle install`
-6. Edit the _config.yml on root directory. Change `url` property to to 
-`http://127.0.0.1:4000` since you are going to run on localhost.
-7. Run the jekyll server by having: `jekyll serve --baseurl ''` or `rake preview`   
+### _config.yml
 
-Point your browser to [http://localhost:4000](http://localhost:4000).
+#### Site Settings
+    email: 
+    baseurl: ""
+    paginate: 5
+    paginate_path: "/blog/page-:num"
+    google_analytics: UA—XXXXXXXX-X
 
-Note: If you are a windows user please refer to this nice website - http://jekyll-windows.juthilo.com/ by Julian Thilo to configure ruby + jekyll on windows.
+* ````email```` - Your email for the contact card and the footer
+* ````baseurl```` - Path of blog if adding this on to another website
+* ````paginate```` - Number of blog posts per page
+* ````paginate_path```` - URL structure of paginated pages
+* ````google_analytics```` - Option field to replace with correct Google Analytics code
 
-## Options/Usage
+#### SEO Settings
+    title: 
+    description: 
+    url: ""
+    twitter_username: 
+    default_img: 
 
-Harmony has some customizable options. All the configuration details are 
-configured in `_config.yml` file under root of the harmony directory. 
+* ````title```` - Title of blog
+* ````description```` - Description of blog (recommended to not go over 160 characters)
+* ````url```` - URL of main website
+* ````twitter_username```` - Twitter username
+* ````default_img```` - Image that will appear when posting links on social networks
 
-Feel free to change your `name`, `descriptionn`, `meta_description`, `author details`,
-`social media names` and `Google analytics id` accordingly. 
+#### Profile Settings
+    name: 
+    profile_img: 
+    profile: 
+    social:
+      github: 
 
-``` yml
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: Harmony
-  # Little description about your site
-  description: Harmony is free responsive jekyll theme.
-  meta_description: Harmony is free responsive jekyll theme. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  basetheme: theme-base-01 # pre defined the{{ site.url | prepend: site.baseurl }}mes are darken, blue-water, reddish.
-  author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+* ````name```` - Full name for SEO purposes
+* ````profile_img```` - Image for the profile card (size to 2000x1200px)
+* ````profile```` - Short description that will be in the profile card
+* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
 
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
 
-  # Profile links, leave blank to ignore
-  social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
-```
+#### Build Settings
+    exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+    permalink: /:year/:month/:day/:title/
 
-### Includes 
+* ````exclude```` - Folders that are excluded from `_site_`
+* ````permalink```` - URL structure of blog posts
 
-All the partial includes are under `_includes` directory.
+### _posts
+    ---
+    layout: post
+    title: ""
+    date: 
+    categories:
+    description: 
+    image: 
+    image-sm:
+    ---
 
-#### Header navigation links
+This is the YAML front matter block for blog posts.
+* ````layout```` - This field will always be post
+* ````title```` - The title of the blog post
+* ````date```` - The date that will appear on the blog post
+* ````categories```` - Optional field that can be entered as an array or a list
+* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
+* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
+* ````image-sm```` - Optional field for card layouts for image optimization and page speed (designed for 500x300px images)
 
-Feel free to add/edit links for your header in the file `header-links.html`.
+## Upcoming Additions
+* Page transitions
+* More styled elements for blog posts
 
-#### Footer links
-
-Customize your footer links by editing `_includes/footer-links.html`
-
-#### Copyrights/Disclaimer statements
-
-All copyright notes are under `_includes/footer.html`. Also note that you 
-can toggle on/off copyright notes from the front-end by setting up `show_disclaimer` 
-property in `_config.yml`. 
-
-### Screenshots
-![Home page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web.jpg "Desktop screen")
-
-![Post page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-2.jpg "Post page screen-shot")
-
-![Blog archive page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-3.jpg "Blog archive page screen-shot")
-
-#### Feedback/Bugs/Suggestions 
-
-Please submit as an [issue](https://github.com/web-create/harmony/issues/new),
-I am happy to response back.
-
-Version history
----------------
-
-| Version no. | Description  | Date |
-| --- | --- | --- |
-| 1.0 | Initial release | 9th September 2014 |
-| 1.0.1 | v1.0.1 with minor bug fix | 9th September 2014 |
-| 1.0.2 | v1.0.2 Optimize for Google | 24th October 2014 |
-
+## Issues
+Please submit any issues [here](https://github.com/thomasvaeth/trophy-jekyll/issues).
 
 ## License
-
-Free / Open sourced under the 
-[MIT](https://github.com/web-create/harmony/blob/master/LICENSE.md).
+Trophy is licensed under the MIT License.

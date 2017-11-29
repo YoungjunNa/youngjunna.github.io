@@ -5,8 +5,8 @@ date: 2017-11-29
 categories:
   - Poem
 description:
-image: https://picsum.photos/200/300/?random
-image-sm: https://picsum.photos/200/300/?random
+image: https://images.unsplash.com/photo-1500471929063-235c721eedf6?auto=format&fit=crop&w=1355&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+image-sm: https://images.unsplash.com/photo-1500471929063-235c721eedf6?auto=format&fit=crop&w=1355&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 ---
 한 시인이 어린 딸에게 말했다.  
 '착한 사람도, 공부 잘하는 사람도 다 말고  

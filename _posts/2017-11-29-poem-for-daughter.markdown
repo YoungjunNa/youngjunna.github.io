@@ -3,10 +3,10 @@ layout: post
 title: "딸을 위한 시"
 date: 2017-11-29
 categories:
-  - Juice
+  - Poem
 description:
-image: https://unsplash.it/2000/1200?image=1003
-image-sm: https://unsplash.it/500/300?image=1003
+image: https://picsum.photos/200/300/?random
+image-sm: https://picsum.photos/200/300/?random
 ---
 한 시인이 어린 딸에게 말했다.  
 '착한 사람도, 공부 잘하는 사람도 다 말고  

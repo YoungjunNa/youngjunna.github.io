@@ -15,9 +15,9 @@ default_img:
 # Profile settings
 name: Youngjun Na
 profile_img: https://avatars1.githubusercontent.com/u/28377612?s=460&v=4
-profile: "배우는 사람"
+profile: "ruminoreticulum@gmail.com"
 social:
-  github: youngjunna
+  github:
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]

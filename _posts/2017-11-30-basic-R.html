@@ -1,3 +1,14 @@
+---
+layout: post
+title: "[R 기초]일단 한번 따라해 봅시다"
+date: 2017-11-30
+categories:
+  - R
+description:
+image: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+image-sm: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -558,12 +569,12 @@ pre.editor-colors .fold-marker:after {
 <h3>2.1. Working directory 확인</h3>
 <pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>getwd()</span></span></div></pre>
 <h3>2.2. Working directory 설정</h3>
-<p>```{r eval=FALSE}
-setwd("/Users/Youngjun/Google Drive/wd")</p>
-<p>#R studio &gt; Tools &gt; Global option &gt; Default working directory 에서 바꿀수도 있습니다.</p>
-<pre class="editor-colors lang-"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>&nbsp;</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>###&nbsp;2.3.&nbsp;Working&nbsp;directory&nbsp;안에&nbsp;있는&nbsp;파일&nbsp;확인</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>```{r}</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>dir()</span></span></div></pre><h3>2.4. 패키지 인스톨</h3>
+<pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>setwd("/Users/Youngjun/Google&nbsp;Drive/wd")</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>&nbsp;</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>#R&nbsp;studio&nbsp;&gt;&nbsp;Tools&nbsp;&gt;&nbsp;Global&nbsp;option&nbsp;&gt;&nbsp;Default&nbsp;working&nbsp;directory&nbsp;에서&nbsp;바꿀수도&nbsp;있습니다.</span></span></div></pre>
+<h3>2.3. Working directory 안에 있는 파일 확인</h3>
+<pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>dir()</span></span></div></pre>
+<h3>2.4. 패키지 인스톨</h3>
 <pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>install.packages("dplyr")</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>install.packages("ggplot2")</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>install.packages("readxl")</span></span></div></pre>
-<h3 id="2-5-">2.5. 패키지 업데이트</h3>
+<h3>2.5. 패키지 업데이트</h3>
 <pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>update.packages(ask=FALSE)</span></span></div></pre>
 <h3>2.6. 패키지 로딩</h3>
 <pre class="editor-colors lang-{r}"><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>library(dplyr)</span></span></div><div class="line"><span class="syntax--text syntax--plain syntax--null-grammar"><span>library(ggplot2)</span></span></div></pre>

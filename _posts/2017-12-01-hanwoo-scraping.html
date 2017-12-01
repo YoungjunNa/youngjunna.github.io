@@ -854,37 +854,31 @@ pre.editor-colors .bracket-matcher .region {
 </blockquote>
 <p>패키치 로딩 및 API key 설정</p>
 <blockquote>
-<p>library(XML)
-API_key&lt;-"본인의 인증키를 넣어줍니다"</p>
+<p>library(XML)</p>
+<p>API_key&lt;-"본인의 인증키를 넣어줍니다"</p>
 </blockquote>
 <p>다음과 같이 function을 입력합니다</p>
 <blockquote>
-<p>#function
-hanwoo&lt;-function(Cattle_No){</p>
-<p>  #package
-  require("XML")</p>
-<p>  #import basic informations
-  url1&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/mtrace/breeding/cattle?cattleNo=&quot;,Cattle_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/mtrace/breeding/cattle?cattleNo=",Cattle_No,"&amp;ServiceKey=",API_key,sep=</a>"")
-  xmlfile1&lt;-xmlParse(url1)
-  xmltop1&lt;-xmlRoot(xmlfile1)
-  get_inform&lt;-xmlToDataFrame(getNodeSet(xmlfile1,"//item"),stringsAsFactors=FALSE)</p>
-<p>  #import an issueNo
-  url2&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/issueNo?animalNo=&quot;,Cattle_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/issueNo?animalNo=",Cattle_No,"&amp;ServiceKey=",API_key,sep=</a>"")
-  xmlfile2&lt;-xmlParse(url2)
-  xmltop2&lt;-xmlRoot(xmlfile2)
-  get_issueNo&lt;-xmlToDataFrame(getNodeSet(xmlfile2,"//item"),stringsAsFactors=FALSE)</p>
+<p>hanwoo&lt;-function(Cattle_No){</p>
+<p>  require("XML")</p>
+<p>  url1&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/mtrace/breeding/cattle?cattleNo=&quot;,Cattle_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/mtrace/breeding/cattle?cattleNo=",Cattle_No,"&amp;ServiceKey=",API_key,sep=</a>"")</p>
+<p>  xmlfile1&lt;-xmlParse(url1)</p>
+<p>  xmltop1&lt;-xmlRoot(xmlfile1)</p>
+<p>  get_inform&lt;-xmlToDataFrame(getNodeSet(xmlfile1,"//item"),stringsAsFactors=FALSE)</p>
+<p>  url2&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/issueNo?animalNo=&quot;,Cattle_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/issueNo?animalNo=",Cattle_No,"&amp;ServiceKey=",API_key,sep=</a>"")</p>
+<p>  xmlfile2&lt;-xmlParse(url2)</p>
+<p>  xmltop2&lt;-xmlRoot(xmlfile2)</p>
+<p>  get_issueNo&lt;-xmlToDataFrame(getNodeSet(xmlfile2,"//item"),stringsAsFactors=FALSE)</p>
 <p>  Issue_No&lt;-gsub(" ","",as.character(get_issueNo$issueNo)) #OR Issue_No&lt;-stringr::str_trim(as.character(get_issueNo$issueNo))</p>
-<p>  #import the carcass characteristics (by using the IssueNo)
-  url3&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/cattle?issueNo=&quot;,Issue_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/cattle?issueNo=",Issue_No,"&amp;ServiceKey=",API_key,sep=</a>"")
-  xmlfile3&lt;-xmlParse(url3)
-  xmltop3&lt;-xmlRoot(xmlfile3)
-  get_hanwoo&lt;-xmlToDataFrame(getNodeSet(xmlfile3,"//item"),stringsAsFactors=FALSE)</p>
+<p>  url3&lt;-paste("<a href="http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/cattle?issueNo=&quot;,Issue_No,&quot;&amp;ServiceKey=&quot;,API_key,sep=">http://data.ekape.or.kr/openapi-data/service/user/grade/confirm/cattle?issueNo=",Issue_No,"&amp;ServiceKey=",API_key,sep=</a>"")</p>
+<p>  xmlfile3&lt;-xmlParse(url3)</p>
+<p>  xmltop3&lt;-xmlRoot(xmlfile3)</p>
+<p>  get_hanwoo&lt;-xmlToDataFrame(getNodeSet(xmlfile3,"//item"),stringsAsFactors=FALSE)</p>
 <p>  print(get_hanwoo)</p>
 <p>}</p>
 </blockquote>
 <p>직접 번호를 넣어 테스트 해보겠습니다. 반드시 "괄호"안에 숫자를 넣어주세요.</p>
 <blockquote>
-<p>#test</p>
 <p>hanwoo("002083191603")</p>
 </blockquote>
 <p>잘 돌아갑니다</p>

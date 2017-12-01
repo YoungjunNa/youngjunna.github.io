@@ -6,7 +6,7 @@ paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: YN
+title: YN's technical blog
 description: 배우는 사람
 url: ""
 twitter_username:
@@ -17,7 +17,7 @@ name: Youngjun Na
 profile_img: https://avatars1.githubusercontent.com/u/28377612?s=460&v=4
 profile: "ruminoreticulum@gmail.com"
 social:
-  github:
+  github: "https://github.com/YoungjunNa"
 
 # Build settings
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]

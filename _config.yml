@@ -6,7 +6,7 @@ paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: YN's technical blog
+title: YN's research note
 description: 배우는 사람
 url: ""
 twitter_username:

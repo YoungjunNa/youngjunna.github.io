@@ -132,7 +132,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>별 쓸데없지만 재밌는 패키지를 하나 소개하고자 합니다. 그 이름하여 cowsay! 자세한 설명은 <a href="https://en.wikipedia.org/wiki/Cowsay">영문위키</a>를 참고하시면 좋을 것 같습니다.</p>
+<p>별 쓸데없지만 재밌는 패키지를 하나 소개하고자 합니다. 그 이름하여 cowsay! 유래에 대한 내용은 <a href="https://en.wikipedia.org/wiki/Cowsay">영문위키</a>를 참고하시면 좋을 것 같습니다.</p>
 <p>일단 설치를 하고</p>
 <pre class="r"><code>install.packages(&quot;cowsay&quot;)</code></pre>
 <p>라이브러리를 불러옵니다.</p>
@@ -150,8 +150,8 @@ $(document).ready(function () {
 ##              ||      ||</code></pre>
 <img src="http://pds23.egloos.com/pds/201204/29/41/a0007341_4f9cffd99566b.jpg" width=300px, height=300px>
 
-<p>기본적으로 <code>say(what = &quot;하고싶은 말&quot;, by = &quot;동물이름&quot;)</code>을 입력하면 됩니다. 동물(사실 동물만 있지 않습니다.. 가령 poop이라던가 ghost라던가..)의 종류는 cow, chicken, poop, cat, facecat, bigcat, longcat, shortcat, behindcat, longtailcat, anxiouscat, grumpycat, smallcat, ant, pumpkin, ghost, spider, rabbit, pig, snowman, frog, hypnotoad, signbunny, stretchycat, fish, trilobite, shark, buffalo, clippy, mushroom, monkey, or rms 등등 이렇게 다양한데 일부 동물은 윈도우 환경에서는 지원하지 않습니다. 만약 다른 동물 이름과 첫글자가 겹쳐지지 않는다면 맨 앞단어만 넣어도 괜찮습니다.</p>
-<p>요다 선생님의 명대사인 Do, or do not. There is no 'try'를 테스트해보았습니다.</p>
+<p>기본적으로 <code>say(what = &quot;하고싶은 말&quot;, by = &quot;동물이름&quot;)</code>을 입력하면 됩니다. 동물(사실 동물만 있지 않습니다.. 가령 poop이라던가 ghost라던가..)의 종류는 cow, chicken, poop, cat, facecat, bigcat, longcat, shortcat, behindcat, longtailcat, anxiouscat, grumpycat, smallcat, ant, pumpkin, ghost, spider, rabbit, pig, snowman, frog, hypnotoad, signbunny, stretchycat, fish, trilobite, shark, buffalo, clippy, mushroom, monkey, or rms 등등 이렇게 다양한데 일부 동물은 윈도우 환경에서는 지원하지 않습니다. 만약 다른 동물 이름과 첫글자가 겹쳐지지 않는다면 맨 처음 알파벳 하나만 넣어도 괜찮습니다.</p>
+<p>마스터 요다의 명대사인 Do, or do not. There is no 'try'를 테스트해봤습니다.</p>
 <pre class="r"><code>say(what=&quot;Do, or do not. There is no \'try\'&quot;,by=&quot;yoda&quot;)</code></pre>
 <pre><code>##
 ##
@@ -226,7 +226,7 @@ say(what=&quot;random test&quot;,by=&quot;random&quot;)</code></pre>
 ##                        \( \(     |/   |/
 ##           mic &amp; dwb  /_(/_(    /_(  /_(
 ## </code></pre>
-<p><code>fortune=TRUE</code> 옵션을 이용해 <a href="https://cran.r-project.org/web/packages/fortunes/index.html">fortunes 패키지</a>에 있는 명언(?)을 가져올 수도 있습니다.</p>
+<p><code>fortune</code> 옵션을 이용해 <a href="https://cran.r-project.org/web/packages/fortunes/index.html">fortunes 패키지</a>에 있는 명언(?)을 가져올 수도 있습니다.</p>
 <pre class="r"><code>say(by=&quot;random&quot;,fortune=&quot;random&quot;)</code></pre>
 <pre><code>##
 ##

@@ -9,6 +9,7 @@ image: https://images.unsplash.com/photo-1415369629372-26f2fe60c467?auto=format&
 image-sm: https://images.unsplash.com/photo-1415369629372-26f2fe60c467?auto=format&fit=crop&w=634&q=80
 ---
 
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -133,8 +134,7 @@ $(document).ready(function () {
 
 
 <p>아마 대부분의 R 유저라면 공감할 듯 합니다만, 저의 경우 기존 마크다운보다 R마크다운을 이용해 글을 쓰는 것이 여러모로 편리합니다. Rstudio를 에디터로 사용하는 것이 손에 익어서도 있겠지만, 무엇보다 R 코딩으로 만든 그래프 등의 결과물을 바로 html 문서로 볼 수 있기 때문입니다.</p>
-<p>본 블로그는 Github를 서버로 이용하기 위해 Jekyll을 이용하였습니다.<br />
-Jekyll은 기본적으로 마크다운을 이용한 포스팅을 지원합니다만 R마크다운 처럼 생성된 결과물을 함께 출력하지는 않습니다. 만약 Rmd 파일로 Jekyll 형식에 맞춰 posting을 한다면 코드는 주석처리되어 표현되겠지만 결과물은 함께 출력되지 않습니다.</p>
+<p>본 블로그는 Github를 서버로 이용하기 위해 Jekyll을 이용하였습니다. Jekyll은 기본적으로 마크다운을 이용한 포스팅을 지원합니다만 R마크다운 처럼 생성된 결과물을 함께 출력하지는 않습니다<del>(결과물을 이미지로 Export해서 폴더에 각각 넣은다음 경로를 지정하는 방법이..)</del>. 만약 Rmd 파일로 Jekyll 형식에 맞춰 posting을 한다면 코드는 주석처리되어 표현되겠지만 결과물은 함께 출력되지 않습니다.</p>
 <p>이를 해결하는 방법은 생각보다 간단합니다.<br />
 결론만 이야기 하자면</p>
 <ol style="list-style-type: decimal">
@@ -149,6 +149,13 @@ Jekyll은 기본적으로 마크다운을 이용한 포스팅을 지원합니다
 
 </div>
 <p>단점: html 파일의 용량이 늘어나는 경우 인터넷 환경에 따라 post를 로딩하는 시간이 길어질 수 있습니다.</p>
+<hr />
+<p><em>02/06/2018 추가</em></p>
+<ol style="list-style-type: decimal">
+<li><a href="http://otzslayer.github.io/r/jekyll-with-R-markdown">다른 방법으로도 해결이 가능합니다.</a><br />
+</li>
+<li>Rmd 템플릿을 적용하면 지킬테마가 적용되지 않는 것 같습니다.</li>
+</ol>
 
 
 

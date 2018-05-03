@@ -47,12 +47,11 @@ layout: default
           </ul>
         {% endif %}
       </div>
+      {% include comments.html %}
     </div>
   </section>
 
 </article>
-
-{% include comments.html %}
 
 {% if page.previous.url %}
   <section class="next">

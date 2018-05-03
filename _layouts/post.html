@@ -52,10 +52,7 @@ layout: default
 
 </article>
 
-<div>
-  {{ content }}
-  {% include comments.html %}
-</div>
+{% include comments.html %}
 
 {% if page.previous.url %}
   <section class="next">

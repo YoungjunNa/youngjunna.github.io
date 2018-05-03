@@ -26,6 +26,7 @@ layout: default
   <section class="section-padding bg-grey" itemprop="articleBody">
     <div class="post">
       {{ content }}
+      {% include comments.html %}
     </div>
   </section>
 
@@ -47,7 +48,6 @@ layout: default
           </ul>
         {% endif %}
       </div>
-      {% include comments.html %}
     </div>
   </section>
 

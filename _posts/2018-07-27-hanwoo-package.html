@@ -145,27 +145,27 @@ $(document).ready(function () {
 <div id="installation" class="section level2">
 <h2>Installation</h2>
 <pre class="r"><code># install.packages(&quot;devtools&quot;)
-devtools::install_github(&quot;youngjunna/hanwoo&quot;)</code></pre>
+devtools::install_github(&quot;adatalab/hanwoo&quot;)</code></pre>
 </div>
 <div id="usage" class="section level2">
 <h2>Usage</h2>
 <p>먼저 data.go.kr에서 API key를 신청하고 그 다음 활용 신청을 해야합니다. <a href="https://youngjunna.github.io/2017/12/01/hanwoo-scraping/">다음글</a>을 참고해 진행하시면 됩니다.</p>
 <div id="hanwoo.key" class="section level3">
-<h3>hanwoo.key</h3>
+<h3>hanwoo_key</h3>
 <p>제일먼저 발급받은 API키를 등록해야 정상적으로 한우의 정보 및 도체정보를 가져올 수 있습니다.</p>
 <pre class="r"><code>library(hanwoo)
 
-hanwoo.key(key=&quot;YOUR_API_KEY_FROM_DATA.GO.KR&quot;)</code></pre>
+hanwoo_key(key=&quot;YOUR_API_KEY_FROM_DATA.GO.KR&quot;)</code></pre>
 </div>
 <div id="hanwoo.info" class="section level3">
-<h3>hanwoo.info</h3>
+<h3>hanwoo_info</h3>
 <p>특정 한우 개체번호(002로 시작)를 입력하여 정보를 리스트형태로 가져올 수 있습니다.</p>
-<pre class="r"><code>hanwoo.info(cattle=&quot;002083191603&quot;)</code></pre>
+<pre class="r"><code>hanwoo_info(cattle=&quot;002083191603&quot;)</code></pre>
 </div>
 <div id="hanwoo.bull" class="section level3">
-<h3>hanwoo.bull</h3>
+<h3>hanwoo_bull</h3>
 <p>KPN 한우 씨수소의 정보를 가져올 수 있습니다. API key를 요구하지 않습니다.</p>
-<pre class="r"><code>hanwoo.bull(KPN=1080)</code></pre>
+<pre class="r"><code>hanwoo_bull(KPN=1080)</code></pre>
 </div>
 </div>
 

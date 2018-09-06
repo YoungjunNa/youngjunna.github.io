@@ -10,6 +10,7 @@ image: https://images.unsplash.com/photo-1529220502050-f15e570c634e?ixlib=rb-0.3
 image-sm: https://images.unsplash.com/photo-1529220502050-f15e570c634e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a82e0d5697afe4cc2e6ab5c31ca11ef&auto=format&fit=crop&w=2001&q=80
 ---
 
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -202,6 +203,24 @@ str(roster)</code></pre>
 ##  $ full_time        : chr  &quot;Yes&quot; &quot;Yes&quot; &quot;Yes&quot; &quot;Yes&quot; ...
 ##  $ certification    : chr  &quot;Physical ed&quot; &quot;Physical ed&quot; &quot;Instr. music&quot; &quot;PENDING&quot; ...
 ##  $ certification_1  : chr  &quot;Theater&quot; &quot;Theater&quot; &quot;Vocal music&quot; &quot;Computers&quot; ...</code></pre>
+<p><code>excel_numeric_to_date()</code>를 이용하면 엑셀에서 숫자형식으로 저장된 날짜를 바꿀 수 있습니다.</p>
+<pre class="r"><code>roster$hire_date &lt;- excel_numeric_to_date(roster$hire_date)
+roster[&quot;hire_date&quot;]</code></pre>
+<pre><code>## # A tibble: 12 x 1
+##    hire_date
+##    &lt;date&gt;
+##  1 2008-08-30
+##  2 2008-08-30
+##  3 2001-08-15
+##  4 1975-05-01
+##  5 2013-06-06
+##  6 1930-03-20
+##  7 1930-03-20
+##  8 1990-05-01
+##  9 1976-06-08
+## 10 2015-08-05
+## 11 1995-01-01
+## 12 2009-09-15</code></pre>
 <p>어째 좀 깨끗해 진 것 같습니다..</p>
 </div>
 <div id="before" class="section level2">
@@ -253,19 +272,19 @@ str(roster)</code></pre>
 <div id="after" class="section level2">
 <h2>After</h2>
 <pre class="r"><code>print.data.frame(roster)</code></pre>
-<pre><code>##      first_name last_name employee_status    subject hire_date
-## 1         Jason    Bourne         Teacher         PE     39690
-## 2         Jason    Bourne         Teacher   Drafting     39690
-## 3        Alicia      Keys         Teacher      Music     37118
-## 4           Ada  Lovelace         Teacher       &lt;NA&gt;     27515
-## 5         Desus      Nice  Administration       Dean     41431
-## 6  Chien-Shiung        Wu         Teacher    Physics     11037
-## 7  Chien-Shiung        Wu         Teacher  Chemistry     11037
-## 8         James     Joyce         Teacher    English     32994
-## 9          Hedy    Lamarr         Teacher    Science     27919
-## 10       Carlos    Boozer           Coach Basketball     42221
-## 11        Young    Boozer           Coach       &lt;NA&gt;     34700
-## 12      Micheal    Larsen         Teacher    English     40071
+<pre><code>##      first_name last_name employee_status    subject  hire_date
+## 1         Jason    Bourne         Teacher         PE 2008-08-30
+## 2         Jason    Bourne         Teacher   Drafting 2008-08-30
+## 3        Alicia      Keys         Teacher      Music 2001-08-15
+## 4           Ada  Lovelace         Teacher       &lt;NA&gt; 1975-05-01
+## 5         Desus      Nice  Administration       Dean 2013-06-06
+## 6  Chien-Shiung        Wu         Teacher    Physics 1930-03-20
+## 7  Chien-Shiung        Wu         Teacher  Chemistry 1930-03-20
+## 8         James     Joyce         Teacher    English 1990-05-01
+## 9          Hedy    Lamarr         Teacher    Science 1976-06-08
+## 10       Carlos    Boozer           Coach Basketball 2015-08-05
+## 11        Young    Boozer           Coach       &lt;NA&gt; 1995-01-01
+## 12      Micheal    Larsen         Teacher    English 2009-09-15
 ##    percent_allocated full_time certification certification_1
 ## 1               0.75       Yes   Physical ed         Theater
 ## 2               0.25       Yes   Physical ed         Theater
@@ -286,11 +305,11 @@ str(roster)</code></pre>
 <pre class="r"><code>roster %&gt;% get_dupes(first_name, last_name)</code></pre>
 <pre><code>## # A tibble: 4 x 10
 ##   first_name   last_name dupe_count employee_status subject   hire_date
-##   &lt;chr&gt;        &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;         &lt;dbl&gt;
-## 1 Chien-Shiung Wu                 2 Teacher         Physics       11037
-## 2 Chien-Shiung Wu                 2 Teacher         Chemistry     11037
-## 3 Jason        Bourne             2 Teacher         PE            39690
-## 4 Jason        Bourne             2 Teacher         Drafting      39690
+##   &lt;chr&gt;        &lt;chr&gt;          &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;     &lt;date&gt;
+## 1 Chien-Shiung Wu                 2 Teacher         Physics   1930-03-20
+## 2 Chien-Shiung Wu                 2 Teacher         Chemistry 1930-03-20
+## 3 Jason        Bourne             2 Teacher         PE        2008-08-30
+## 4 Jason        Bourne             2 Teacher         Drafting  2008-08-30
 ## # ... with 4 more variables: percent_allocated &lt;dbl&gt;, full_time &lt;chr&gt;,
 ## #   certification &lt;chr&gt;, certification_1 &lt;chr&gt;</code></pre>
 <p>이 선생님들은 두가지 과목을 가르치는 바람에 데이터셋에서 이름이 두번 등장하게 됩니다.</p>

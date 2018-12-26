@@ -25,7 +25,7 @@ Department of Animal Science and Technology, Konkuk University
 
 ### Applications  
 - [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
-- [HanwooLab](https://adatalab.github.io/hanwoolab/hanwoo114). 2018  
+- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
 
 ### R packages  
 - [dairyCattle](https://github.com/adatalab/dairyCattle) for modeling the nutrient requirement of dairy cattle. 2018
@@ -34,8 +34,8 @@ Department of Animal Science and Technology, Konkuk University
 - [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle. 2018  
 - [rdevteam](https://github.com/lovetoken/rdevteam) for related search word analysis. 2017 - 2018  
 
-### Projects, 2017 - present  
-- Animal science for you and your dog. 2018 - present  
+### Projects    
+- [Animal science for you and your dog](https://github.com/YoungjunNa/yourdog). 2018 - present  
 - [Geographic information system (GIS) anlaysis for animal manure treatment in Korea](https://github.com/YoungjunNa/GIS-livestock-manure.git). 2018  
 - [Breeding bull analysis for Hanwoo, KPN: Here in the real world 2017](https://youngjunna.github.io/adatalab/kpn-2017-sample.html). 2018
 - [Pedigree visualization for Hanwoo](https://youngjunna.github.io/2018/04/10/kpn-network-full/). 2018  

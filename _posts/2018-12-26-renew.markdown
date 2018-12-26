@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "블로그 리뉴얼"
+date: 2018-12-26
+author: Youngjun Na
+---
+
+블로그를 리뉴얼 하였습니다.

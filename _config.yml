@@ -49,11 +49,18 @@ jekyll-archives:
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: Animal nutrition journal report
+    desc: "Posts for Animal nutrition journal report"
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: R
+    desc: "Posts for R programming"
+
+  - cat: R packages
+    desc: "Posts for introducing the R packages"
+
+  - cat: Note
+    desc: "Note"
+
 
 # Social icons and sharing options
 #

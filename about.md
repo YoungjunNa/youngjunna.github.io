@@ -6,6 +6,10 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/animaldata.png" title="Profile Picture" class="profile">
 
+**animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; postdoc; freelancer; want to be a good father, son, and hubby.**
+
+--------------
+
 # Youngjun Na, PhD   
 Department of Animal Science and Technology, Konkuk University  
 120 Neungdong-ro, Gwangjin-gu, Seoul 05029. Republic of Korea  
@@ -20,9 +24,7 @@ Department of Animal Science and Technology, Konkuk University
 
 --------------
 
-## Project animal data lab.
-#### **Chief Scientist**, [animal data laboratory](https://adatalab.github.io/), 2018 - present  
-
+## Project [animal data lab.](https://adatalab.github.io/)
 ### Applications  
 - [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
 - [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
@@ -39,14 +41,9 @@ Department of Animal Science and Technology, Konkuk University
 - [Geographic information system (GIS) anlaysis for animal manure treatment in Korea](https://github.com/YoungjunNa/GIS-livestock-manure.git). 2018  
 - [Breeding bull analysis for Hanwoo, KPN: Here in the real world 2017](https://youngjunna.github.io/adatalab/kpn-2017-sample.html). 2018
 - [Pedigree visualization for Hanwoo](https://youngjunna.github.io/2018/04/10/kpn-network-full/). 2018  
-- [Animal nutrition journal report](https://youngjunna.github.io/2018/07/04/animal-nutrition-journal-report/). 2017 - present  
+- [Animal nutrition journal report](https://youngjunna.github.io/2018/07/04/animal-nutrition-journal-report/). 2017 - present   
 
 --------------
 
 ## DISCOGRAPHY
 - Keyboardist, Booze-Up, [Yousil (2013)](http://www.melon.com/album/detail.htm?albumId=2094686)  
-
-
---------------
-
-animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; postdoc; freelancer; want to be a good father, son, and hubby.

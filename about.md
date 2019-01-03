@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/animaldata.png" title="Profile Picture" class="profile">
 
-**animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; postdoc; freelancer; want to be a good father, son, and hubby.**
+**animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; postdoc; want to be a good father, son, and hubby.**
 
 --------------
 

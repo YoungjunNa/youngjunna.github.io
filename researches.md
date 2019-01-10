@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Research
+title: Lectures/Research
 permalink: /research/
 ---
 
 ## LECTURES   
-- [Animal breeding](https://github.com/YoungjunNa/2018_breeding_science), Seojeong College, Spring 2018
-- [Animal nutrition and feeding](https://github.com/YoungjunNa/2018_animal_nutrition_and_feeding), Seojeong College, Spring 2018
-- Animal nutrition and feeding, Seojeong College, Spring 2017  
-- [Advanced biological statics (Grad school)](https://github.com/YoungjunNa/2017_advanced_biological_statics), Konkuk University, Fall 2017  
-- Animal nutrition, Korea Open University, Fall 2017
+- [Animal environmental science](https://github.com/YoungjunNa/2019-animal-environmental-science). Konkuk University. Spring 2019  
+- [Animal nutrition and the environment (Grad school)](https://github.com/YoungjunNa/2019-animal-nutrition-and-the-environment). Konkuk University. Spring 2019  
+- [Animal breeding](https://github.com/YoungjunNa/2018_breeding_science). Seojeong College. Spring 2018
+- [Animal nutrition and feeding](https://github.com/YoungjunNa/2018_animal_nutrition_and_feeding). Seojeong College. Spring 2017-2018  
+- [Advanced biological statics (Grad school)](https://github.com/YoungjunNa/2017_advanced_biological_statics). Konkuk University. Fall 2017  
+- Animal nutrition. Korea Open University. Fall 2017
 
 --------------
 
@@ -43,5 +44,5 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 
 --------------
 
-### Committee member of Korea Livestock Feeding Standard, RDA, 2018 - present
-- Member of the Hanwoo subcommittee  
+### Committee member of Korea Livestock Feeding Standard, RDA
+- Member of the Hanwoo subcommittee. 2018 - present  

@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://youngjunna.github.io" # the base hostname & protocol for your site
-cover: "/assets/deer.jpeg"
+cover: "/assets/books.jpeg"
 logo: "/assets/animaldata.png"
 
 # Build settings
@@ -57,6 +57,9 @@ descriptions:
 
   - cat: R packages
     desc: "Posts for introducing the R packages"
+
+  - cat: Presentation
+    desc: "Presentation"
 
   - cat: Note
     desc: "Note"

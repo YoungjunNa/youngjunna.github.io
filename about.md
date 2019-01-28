@@ -16,6 +16,23 @@ Department of Animal Science and Technology, Konkuk University
 
 --------------
 
+```
+library(youngjunna)  
+
+# Research ----
+Category <- “Animal science”
+Category$major <- “Ruminant nutrition 🐄🐂🐏🦌”
+Research <- lapply(AnimalScience, function(x) DataScience(x) * R(x))
+
+# Summary ----
+Animal %>%
+  Ruminant(for = c(“dairy”, “beef”, “environment”)) %>%
+  Nutrition(for = c(“productivity”, “behavior”, “welfare”)) %>%
+  Modeling(method = “ML”) %>%
+  R(for = c(“meta-analysis”, “data wrangling”, “visualization”, “Shiny”))  
+```
+--------------
+
 ## EDUCATION
 ### **Konkuk University**, Seoul, Republic of Korea  
 - **Ph.D.**, Animal Science	Mar 2014 – Feb 2017  

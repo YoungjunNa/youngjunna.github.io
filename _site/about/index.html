@@ -163,6 +163,23 @@
 
 <hr />
 
+<div class="highlighter-rouge"><pre class="highlight"><code>library(youngjunna)  
+
+# Research ----
+Category &lt;- “Animal science”
+Category$major &lt;- “Ruminant nutrition 🐄🐂🐏🦌”
+Research &lt;- lapply(AnimalScience, function(x) DataScience(x) * R(x))
+
+# Summary ----
+Animal %&gt;%
+  Ruminant(for = c(“dairy”, “beef”, “environment”)) %&gt;%
+  Nutrition(for = c(“productivity”, “behavior”, “welfare”)) %&gt;%
+  Modeling(method = “ML”) %&gt;%
+  R(for = c(“meta-analysis”, “data wrangling”, “visualization”, “Shiny”))  
+</code></pre>
+</div>
+<hr />
+
 <h2 id="education">EDUCATION</h2>
 <h3 id="konkuk-university-seoul-republic-of-korea"><strong>Konkuk University</strong>, Seoul, Republic of Korea</h3>
 <ul>

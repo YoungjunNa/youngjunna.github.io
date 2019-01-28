@@ -7,6 +7,7 @@ permalink: /research/
 ## LECTURES   
 - [Animal environmental science](https://github.com/YoungjunNa/2019-animal-environmental-science). Konkuk University. Spring 2019  
 - [Animal nutrition and the environment (Grad school)](https://github.com/YoungjunNa/2019-animal-nutrition-and-the-environment). Konkuk University. Spring 2019  
+- Life science. Jangan University. Spring 2019  
 - [Animal breeding](https://github.com/YoungjunNa/2018_breeding_science). Seojeong College. Spring 2018
 - [Animal nutrition and feeding](https://github.com/YoungjunNa/2018_animal_nutrition_and_feeding). Seojeong College. Spring 2017-2018  
 - [Advanced biological statics (Grad school)](https://github.com/YoungjunNa/2017_advanced_biological_statics). Konkuk University. Fall 2017  

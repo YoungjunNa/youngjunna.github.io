@@ -23,17 +23,18 @@ Department of Animal Science and Technology, Konkuk University
 - B.Sc., Animal Science	Mar 2006 – Aug 2011  
 
 --------------
-
-## Project [animal data lab.](https://adatalab.github.io/)
-### Applications  
-- [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
-- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
+## PROGRAMMING  
+Project [animal data lab.](https://adatalab.github.io/)  
 
 ### R packages  
 - [dairyCattle](https://github.com/adatalab/dairyCattle) for modeling the nutrient requirement of dairy cattle. 2018
 - [CH4goat](https://github.com/adatalab/CH4goat) for a deep learning models to predict the methane emission from goats. 2018
 - [feed](https://github.com/adatalab/feed) for animal feed information. 2018 - present  
 - [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle. 2018  
+
+### Applications  
+- [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
+- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
 
 ### Projects    
 - [Animal science for you and your dog](https://github.com/YoungjunNa/yourdog). 2018 - present  

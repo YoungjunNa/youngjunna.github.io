@@ -50,11 +50,13 @@ Project [animal data lab.](https://adatalab.github.io/)
 - [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle. 2018  
 
 ### Applications  
+- [새로운 육량등급 시뮬레이터](https://youngjunna.shinyapps.io/hanwoo-new-windex/). 2019  
 - [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
 - [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
 
+
 ### Projects    
-- [Animal science for you and your dog](https://github.com/YoungjunNa/yourdog). 2018 - present  
+- [A lecture for you and your dog](https://github.com/YoungjunNa/yourdog). 2018 - present  
 - [Geographic information system (GIS) anlaysis for animal manure treatment in Korea](https://github.com/YoungjunNa/GIS-livestock-manure.git). 2018  
 - [Breeding bull analysis for Hanwoo, KPN: Here in the real world 2017](https://youngjunna.github.io/adatalab/kpn-2017-sample.html). 2018
 - [Pedigree visualization for Hanwoo](https://youngjunna.github.io/2018/04/10/kpn-network-full/). 2018  

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111371471-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111371471-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Shiny$ 새로운 한우 육량등급 시뮬레이터</title>
+  <meta name="description" content="2019년 12월 1일부터 새롭게 변화하는 쇠고기 등급판정 세부기준 개정에 따라 바뀐 새로운 육량등급을 적용해 볼 수 있는 프로그램을 소개합니다.">
+  
+  <meta name="author" content="Youngjun Na">
+  <meta name="copyright" content="&copy; Youngjun Na 2019">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="2019년 12월 1일부터 새롭게 변화하는 쇠고기 등급판정 세부기준 개정에 따라 바뀐 새로운 육량등급을 적용해 볼 수 있는 프로그램을 소개합니다." />
+  <meta property="og:url" content="http://youngjunna.github.io" />
+  <meta property="og:site_name" content="배우는 사람" />
+  <meta property="og:title" content="Shiny$ 새로운 한우 육량등급 시뮬레이터" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://youngjunna.github.io/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Shiny$ 새로운 한우 육량등급 시뮬레이터">
+  <meta name="twitter:description" content="2019년 12월 1일부터 새롭게 변화하는 쇠고기 등급판정 세부기준 개정에 따라 바뀐 새로운 육량등급을 적용해 볼 수 있는 프로그램을 소개합니다.">
+  <meta name="twitter:image" content="http://youngjunna.github.io/assets/logo.png">
+  <meta name="twitter:url" content="http://youngjunna.github.io">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://youngjunna.github.io/r/animal%20science/2019/01/30/hanwoo-new-w">
+  <link rel="alternate" type="application/rss+xml" title="배우는 사람" href="http://youngjunna.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/animaldata.png" alt="배우는 사람">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+          <li class="nav-link"><a href="/research/">Lectures/Research</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">Shiny$ 새로운 한우 육량등급 시뮬레이터</h1>
+      <p class="info">by <strong>Youngjun Na</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">January 30, 2019</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/R">R</a>, 
+    
+  
+    
+    <a href="/category/Animal Science">Animal science</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p><strong>2019년 12월 1일부터</strong> 새롭게 변화하는 쇠고기 등급판정 <a href="http://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%B6%95%EC%82%B0%EB%AC%BC%20%EB%93%B1%EA%B8%89%ED%8C%90%EC%A0%95%20%EC%84%B8%EB%B6%80%EA%B8%B0%EC%A4%80">세부기준 개정</a>에 따라 바뀐 새로운 육량등급을 적용해 볼 수 있는 프로그램을 소개합니다.</p>
+
+<p>기존 육량지수 산정식이 현재의 도체중 증가추세를 제대로 반영하지 못하고 있었는데, 이를 반영한 육량지수 산정식이 새로 개발되었습니다. 한우/육우의 산정식이 따로 개발되었으며, 그 안에서도 거세/암소/수소에 대한 각각의 산정식이 적용됩니다. 기존에는 도체중이 높을수록 육량지수가 감소했지만 새로 바뀌는 체제에서는 도체중이 높을수록 좋은 육량등급을 받을 수 있게 되었습니다.</p>
+
+<p>육질등급의 경우 1++등급의 근내지방도 범위를 현행 8, 9번에서 <strong>7+, 7++, 8, 9번으로 하향</strong> 조정하고, 1+등급의 근내지방도 범위를 현행 6, 7번에서 <strong>5++, 6, 70로 완화</strong> 되었습니다. 또한 1++등급 쇠고기에 한해 근내지방도가 병행표기됩니다.</p>
+
+<p>근내지방도의 경우 기존의 7번 내에서 바뀌는 부분이라 시뮬레이팅을 해볼 수 없지만, 새로운 육량지수 및 육질등급의 경우 기존의 도체중, 등심단면적, 등지방두께 등의 자료를 이용해서 계산해서 적용해 볼 수 있습니다. 본 프로그램의 목표는 <strong>기존의 조합이나 농가의 한우 사양 방식을 점검하고 새로운 쇠고기 등급체계를 대비 하기 위함</strong> 입니다.</p>
+
+<p>먼저 아래 링크를 통해 프로그램에 접속합니다.<br />
+https://youngjunna.shinyapps.io/hanwoo-new-windex/</p>
+
+<p><img src="/assets/pic/190130-1.png" alt="" /></p>
+
+<p>오른쪽 링크를 통해 예제파일을 다운로드 해 본인의 데이터를 넣고 파일을 업로드하면 기존 데이터를 기반으로 새로운 육량등급체계에 맞춰 산출된 새로운 육량등급을 보실 수 있습니다. 노란색 셀은 필수 입력사항입니다.</p>
+
+<p><img src="/assets/pic/190130-2.png" alt="" /></p>
+
+<p>기본적인 Summary가 제공되며 도표에 마우스를 올리면 세부적인 내용을 확인할 수 있습니다.</p>
+
+<p><img src="/assets/pic/190130-3.png" alt="" /></p>
+
+<p>Table 탭으로 이동하면 각 개체의 세부정보를 확인할 수 있습니다. 각 개체의 바뀐 육량지수와 육량등급을 볼 수 있습니다.</p>
+
+  <p><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://youngjunna.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</p>
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">배우는 사람</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+          <li class="nav-link"><a href="/research/">Lectures/Research</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:ruminoreticulum@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">ruminoreticulum@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://github.com/youngjunna" title="GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Youngjun Na</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.instagram.com/youngjun_na/" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">Youngjun Na</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">animal science; nutrition modeling; R; Shiny; machine learning
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-111371471-1', 'auto');
+  ga('send', 'pageview', {
+    'page': '/r/animal%20science/2019/01/30/hanwoo-new-windex.html',
+    'title': 'Shiny$ 새로운 한우 육량등급 시뮬레이터'
+  });
+</script>
+
+
+
+  </body>
+
+</html>

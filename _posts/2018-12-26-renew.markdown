@@ -3,8 +3,9 @@ layout: post
 title:  "블로그 리뉴얼"
 date: 2018-12-26
 author: Youngjun Na
-categories: 
+categories:
     - Note
+description: 축산; 한우; 젖소; 낙농; 양돈; 양계; 동물영양학; 사료; 머신러닝; 딥러닝; 머신러닝; data science; animal science; dairy science; R; machine learning; Shiny; Big data
 ---
 
-블로그를 리뉴얼 하였습니다. 
+블로그를 리뉴얼 하였습니다.

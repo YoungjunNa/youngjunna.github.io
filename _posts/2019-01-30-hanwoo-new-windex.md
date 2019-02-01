@@ -7,6 +7,7 @@ author: Youngjun Na
 categories:
   - R
   - Animal Science
+description: 쇠고기; 등급판정기준; 개정; 축산물품질평가원; 육량등급; 육량지수; 계산기; 시뮬레이터; 축산; 한우; 젖소; 낙농; 양돈; 양계; 동물영양학; 사료; 머신러닝; 딥러닝; 머신러닝; data science; animal science; dairy science; R; machine learning; Shiny; Big data
 ---
 
 ## 쇠고기 등급판정 기준 개정  

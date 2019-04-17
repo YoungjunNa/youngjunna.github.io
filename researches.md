@@ -6,13 +6,18 @@ permalink: /research/
 
 ## LECTURES   
 - [Animal environmental science](https://youngjunna.github.io/animal-environmental-science/). Konkuk University. Spring 2019  
-- [Grass and forage science](https://youngjunna.github.io/forage-science). Konkuk University. Spring 2019  
+- [Grass and forage science](https://youngjunna.github.io/presentation/2019/03/12/forage-sci-intro.html). Konkuk University. Spring 2019  
 - [Animal nutrition and the environment (Grad school)](https://github.com/YoungjunNa/2019-animal-nutrition-and-the-environment). Konkuk University. Spring 2019  
 - Life science. Jangan University. Spring 2019  
 - [Animal breeding](https://github.com/YoungjunNa/2018_breeding_science). Seojeong College. Spring 2018
 - [Animal nutrition and feeding](https://github.com/YoungjunNa/2018_animal_nutrition_and_feeding). Seojeong College. Spring 2017-2018  
 - [Advanced biological statics (Grad school)](https://github.com/YoungjunNa/2017_advanced_biological_statics). Konkuk University. Fall 2017  
 - Animal nutrition. Korea Open University. Fall 2017
+
+--------------
+
+## COMMITTEE
+- Member of the Hanwoo subcommittee. Korea Livestock Feeding Standard, RDA. 2018 - present  
 
 --------------
 
@@ -44,8 +49,3 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 - **Na, Y.** and S. R. Lee. 2017. Effects of increasing pineapple (*Ananas comosus* L.) cannery by-product inclusion level on growth performance, blood parameters, carcass characteristics, and longissimus muscle fatty acid and free amino acid composition of growing-finishing Hanwoo (*Bos Taurus coreanae*) steers. ASAS-CSAS Annual meeting.   
 - **Na, Y.**, W. Y. Jeong, O. H. Yi, S. J. Hwang and S. R. Lee. 2013. Model for estimating enteric methane emissions from black goat. ADSA-ASAS Joint Annual Meeting.  
 - **Na, Y.**, S. J. Hwang, S. S. Park, I. H. Lee, K. T. Nam and S. R. Lee. 2012. Effects of Feeding Rice Straw and Alfalfa Pellet as Roughage Sources on Milk Productivity and Chewing Behavior in Mid-Lactating Dairy Cows. Asian-Australasian Association of Animal Production Societies.  
-
---------------
-
-### Committee member of Korea Livestock Feeding Standard, RDA
-- Member of the Hanwoo subcommittee. 2018 - present  

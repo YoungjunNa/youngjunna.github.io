@@ -19,7 +19,7 @@ description: animal science; nutrition modeling; R; Shiny; machine learning
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://youngjunna.github.io" # the base hostname & protocol for your site
-cover: "/assets/books.jpeg"
+cover: "/assets/yellow.jpeg"
 logo: "/assets/animaldata.png"
 
 # Build settings
@@ -58,7 +58,7 @@ descriptions:
     desc: "Posts for introducing the R packages"
 
   - cat: Presentation
-    desc: "Presentation"
+    desc: "Presentation files"
 
   - cat: Note
     desc: "Note"

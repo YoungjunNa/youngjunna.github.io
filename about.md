@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/animaldata.png" title="Profile Picture" class="profile">
 
-**animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; postdoc; want to be a good father, son, and hubby.**
+**animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; want to be a good father, son, and hubby.**
 
 --------------
 
@@ -44,10 +44,10 @@ Animal %>%
 Project [animal data lab.](https://adatalab.github.io/)  
 
 ### R packages  
-- [dairyCattle](https://github.com/adatalab/dairyCattle) for modeling the nutrient requirement of dairy cattle. 2018
-- [CH4goat](https://github.com/adatalab/CH4goat) for a deep learning models to predict the methane emission from goats. 2018
-- [feed](https://github.com/adatalab/feed) for animal feed information. 2018 - present  
-- [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle. 2018  
+- [feed](https://github.com/adatalab/feed) for animal feed information.   
+- [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle.   
+- [dairyCattle](https://github.com/adatalab/dairyCattle) for modeling the nutrient requirement of dairy cattle.
+- [CH4goat](https://github.com/adatalab/CH4goat) for a deep learning models to predict the methane emission from goats.
 
 ### Applications  
 - [새로운 육량등급 시뮬레이터](https://youngjunna.shinyapps.io/hanwoo-new-windex/). 2019  

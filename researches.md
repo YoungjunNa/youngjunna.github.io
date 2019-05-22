@@ -32,7 +32,7 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 - **Na, Y.**, K. W. Lee, K. H. Hong, J. S. Rim, M. H. Kim, K. H. Kim, and S. R. Lee. 2013. Evaluations of Nutrient Compositions and In Situ Ruminal Disappearance Rates of Roughage Sources Commonly Used in Korea. Journal of The Korean Society of Grassland and Forage Science 33(4): 269–74.  
 
 ### Co-author
-- Choi Y., J. Rim, H. Lee, H. Kwon, **Y. Na**, and S. R. Lee. 2019. Effect of fermented spent instant coffee grounds on milk productivity and blood profiles of lactating dairy cows (accepted).  
+- Choi Y., J. Rim, H. Lee, H. Kwon, **Y. Na**, and S. R. Lee. 2019. Effect of fermented spent instant coffee grounds on milk productivity and blood profiles of lactating dairy cows. Asian-Australasian Journal of Animal Sciences. Published online February 14, 2019.  
 - Bharanidharan R., Y. Woo, C. Lee, **Y. Na**, D. Kim, and K. H. Kim. 2018. Effect of Feeding Method on Methane Production per Dry Matter Intake in Holstein Steers. Journal of The Korean Society of Grassland and Forage Science 38(4): 262-67.   
 - Choi Y., E. C. Lee, **Y. Na**, and S. R. Lee. 2018. Effects of dietary supplementation with fermented and non-fermented brown algae by-products on laying performance, egg quality and blood profile in laying hens. Asian-Australasian Journal of Animal Sciences 31(10): 1654-1659.
 - Bharanidharan R., S. Arokiyaraj, E. B. Kim, C. H. Lee, Y. W. Woo, **Y. Na**, D. Kim, and K. H. Kim. 2018. Ruminal methane emissions, metabolic, and microbial profile of Holstein steers fed forage and concentrate, separately or as a total mixed ration. PLOS ONE 13(8): e0202446.  
@@ -45,7 +45,7 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 --------------
 
 ## ABSTRACTS
-- Kim, J., **Na, Y.** and S. R. Lee. 2018. Artificial neural networks  model for predicting enteric methane emission from goats. 2018 Annual Congress of KSAST.  
+- Kim, J., **Na, Y.** and S. R. Lee. 2018. Artificial neural networks model for predicting enteric methane emission from goats. 2018 Annual Congress of KSAST.  
 - **Na, Y.** and S. R. Lee. 2017. Effects of increasing pineapple (*Ananas comosus* L.) cannery by-product inclusion level on growth performance, blood parameters, carcass characteristics, and longissimus muscle fatty acid and free amino acid composition of growing-finishing Hanwoo (*Bos Taurus coreanae*) steers. ASAS-CSAS Annual meeting.   
 - **Na, Y.**, W. Y. Jeong, O. H. Yi, S. J. Hwang and S. R. Lee. 2013. Model for estimating enteric methane emissions from black goat. ADSA-ASAS Joint Annual Meeting.  
 - **Na, Y.**, S. J. Hwang, S. S. Park, I. H. Lee, K. T. Nam and S. R. Lee. 2012. Effects of Feeding Rice Straw and Alfalfa Pellet as Roughage Sources on Milk Productivity and Chewing Behavior in Mid-Lactating Dairy Cows. Asian-Australasian Association of Animal Production Societies.  

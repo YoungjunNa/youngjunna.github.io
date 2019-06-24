@@ -5,8 +5,8 @@
     <description>animal science; nutrition modeling; R; Shiny; machine learning</description>
     <link>http://youngjunna.github.io/</link>
     <atom:link href="http://youngjunna.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 31 May 2019 17:25:52 +0900</pubDate>
-    <lastBuildDate>Fri, 31 May 2019 17:25:52 +0900</lastBuildDate>
+    <pubDate>Mon, 24 Jun 2019 10:27:31 +0900</pubDate>
+    <lastBuildDate>Mon, 24 Jun 2019 10:27:31 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -358,7 +358,7 @@ https://youngjunna.shinyapps.io/hanwoo-new-windex/&lt;/p&gt;
     
       <item>
         <title>Shiny for animal science</title>
-        <description>&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/1qSglA9QKYel0g&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+        <description>&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/yojrS5Gj77HGEl&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 &lt;div style=&quot;margin-bottom:5px&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;2019년 1월 Shiny Korea Meetup 발표자료&lt;br /&gt;
@@ -377,7 +377,7 @@ https://github.com/shinykorea/Meetup&lt;/p&gt;
     
       <item>
         <title>R for animal science</title>
-        <description>&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/r7drHZlqcxVReZ&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+        <description>&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/Ic0cSWK9maIC4F&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
 
 &lt;p&gt;2019년 1월 데이터 사이언스 Meetup 발표자료&lt;br /&gt;
 https://tidyverse-korea.github.io/r-meetup-x-presser/&lt;/p&gt;

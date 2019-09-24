@@ -20,7 +20,7 @@ description: animal science; nutrition modeling; R; Shiny; machine learning
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://youngjunna.github.io" # the base hostname & protocol for your site
 cover: "https://images.unsplash.com/photo-1569261201323-859593170d41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
-logo: "/assets/animaldata.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown

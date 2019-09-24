@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: 배우는 사람
+title: Animal Data Laboratory
 subtitle: "animal science; nutrition modeling; R; Shiny; machine learning"
 email: ruminoreticulum@gmail.com
 name: Youngjun Na
@@ -19,7 +19,7 @@ description: animal science; nutrition modeling; R; Shiny; machine learning
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://youngjunna.github.io" # the base hostname & protocol for your site
-cover: "https://images.unsplash.com/photo-1545231097-c046d9dcc2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2108&q=80"
+cover: "https://images.unsplash.com/photo-1569261201323-859593170d41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
 logo: "/assets/animaldata.png"
 
 # Build settings

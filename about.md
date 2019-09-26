@@ -56,6 +56,7 @@ Project [animal data lab.](https://adatalab.github.io/)
 
 
 ### Projects    
+- [ASF timeline](http://adatalab.net/asf-timeline/). 2019    
 - [A lecture for you and your dog](https://github.com/YoungjunNa/yourdog). 2018 - present  
 - [Geographic information system (GIS) anlaysis for animal manure treatment in Korea](https://github.com/YoungjunNa/GIS-livestock-manure.git). 2018  
 - [Breeding bull analysis for Hanwoo, KPN: Here in the real world 2017](https://youngjunna.github.io/adatalab/kpn-2017-sample.html). 2018

@@ -10,7 +10,7 @@ exclude:
 
 # Site settings
 title: Animal Data Laboratory
-subtitle: "Adventure of lifetime with animal science; modeling; machine learning; R; Shiny; Docker"
+subtitle: "Adventure of lifetime with animal science, machine learning, shiny, and R"
 email: ruminoreticulum@gmail.com
 name: Youngjun Na
 description: animal science; nutrition modeling; R; Shiny; machine learning

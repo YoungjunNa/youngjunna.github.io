@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "R$ Docker로 올린 R Studio에서 유저를 추가하는 방법"
-date: 2019-09-20
+date: 2019-10-01
 comments: true
 author: Youngjun Na
 categories:

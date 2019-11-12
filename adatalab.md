@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Apps
+title: Applications
 permalink: /apps/
 ---
 
 ### Applications  
-- [새로운 육량등급 시뮬레이터](https://youngjunna.shinyapps.io/hanwoo-new-windex/). 2019  
-- [DairyLab](https://adatalab.github.io/dairylab-pro). 2018  
-- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/). 2018  
+- [새로운 육량등급 시뮬레이터](https://youngjunna.shinyapps.io/hanwoo-new-windex/)   
+- [DairyLab @Haon](https://youngjunna.shinyapps.io/DairyLab-Haon/)   
+- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/)   
 
 --------------
 

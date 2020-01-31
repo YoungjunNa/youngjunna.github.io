@@ -8,6 +8,7 @@ gems:
 exclude:
   - "/vendor/"
 
+
 # Site settings
 title: Animal Data Laboratory
 subtitle: "Adventure of lifetime with animal science, machine learning, shiny, and R"
@@ -24,6 +25,8 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
+
+plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false

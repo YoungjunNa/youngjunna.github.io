@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://youngjunna.github.io/note/2020/01/21/ai-and-humanity.html</loc>
+      <loc>http://localhost:4000/note/2020/01/21/ai-and-humanity.html</loc>
       
         <lastmod>2020-01-21T00:00:00+09:00</lastmod>
       
@@ -18,7 +18,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2020/01/09/summarise_all.html</loc>
+      <loc>http://localhost:4000/r/2020/01/09/summarise_all.html</loc>
       
         <lastmod>2020-01-09T00:00:00+09:00</lastmod>
       
@@ -34,7 +34,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/note/2019/10/30/agri-data.html</loc>
+      <loc>http://localhost:4000/note/2019/10/30/agri-data.html</loc>
       
         <lastmod>2019-10-30T00:00:00+09:00</lastmod>
       
@@ -50,7 +50,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/10/01/ruck.html</loc>
+      <loc>http://localhost:4000/presentation/2019/10/01/ruck.html</loc>
       
         <lastmod>2019-10-01T00:00:00+09:00</lastmod>
       
@@ -66,7 +66,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/10/01/rocker-setting.html</loc>
+      <loc>http://localhost:4000/r/2019/10/01/rocker-setting.html</loc>
       
         <lastmod>2019-10-01T00:00:00+09:00</lastmod>
       
@@ -82,7 +82,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2019/09/20/asf-timeline.html</loc>
+      <loc>http://localhost:4000/animal%20science/2019/09/20/asf-timeline.html</loc>
       
         <lastmod>2019-09-20T00:00:00+09:00</lastmod>
       
@@ -98,7 +98,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2019/09/09/inaccuracies-feeding-standard.html</loc>
+      <loc>http://localhost:4000/animal%20science/2019/09/09/inaccuracies-feeding-standard.html</loc>
       
         <lastmod>2019-09-09T00:00:00+09:00</lastmod>
       
@@ -114,7 +114,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/08/14/meta-analysis.html</loc>
+      <loc>http://localhost:4000/presentation/2019/08/14/meta-analysis.html</loc>
       
         <lastmod>2019-08-14T00:00:00+09:00</lastmod>
       
@@ -130,7 +130,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/07/18/shiny-container.html</loc>
+      <loc>http://localhost:4000/r/2019/07/18/shiny-container.html</loc>
       
         <lastmod>2019-07-18T00:00:00+09:00</lastmod>
       
@@ -146,7 +146,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/07/15/highcharter-theme.html</loc>
+      <loc>http://localhost:4000/r/2019/07/15/highcharter-theme.html</loc>
       
         <lastmod>2019-07-15T00:00:00+09:00</lastmod>
       
@@ -162,7 +162,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/07/05/section-label.html</loc>
+      <loc>http://localhost:4000/r/2019/07/05/section-label.html</loc>
       
         <lastmod>2019-07-05T00:00:00+09:00</lastmod>
       
@@ -178,7 +178,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/05/15/history-of-genetics.html</loc>
+      <loc>http://localhost:4000/presentation/2019/05/15/history-of-genetics.html</loc>
       
         <lastmod>2019-05-15T00:00:00+09:00</lastmod>
       
@@ -194,7 +194,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/03/12/forage-sci-intro.html</loc>
+      <loc>http://localhost:4000/presentation/2019/03/12/forage-sci-intro.html</loc>
       
         <lastmod>2019-03-12T00:00:00+09:00</lastmod>
       
@@ -210,7 +210,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/02/12/parse_number.html</loc>
+      <loc>http://localhost:4000/r/2019/02/12/parse_number.html</loc>
       
         <lastmod>2019-02-12T00:00:00+09:00</lastmod>
       
@@ -226,7 +226,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2019/01/30/hanwoo-new-windex.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2019/01/30/hanwoo-new-windex.html</loc>
       
         <lastmod>2019-01-30T00:00:00+09:00</lastmod>
       
@@ -242,7 +242,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/29/shiny-for-animal-sci.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/29/shiny-for-animal-sci.html</loc>
       
         <lastmod>2019-01-29T00:00:00+09:00</lastmod>
       
@@ -258,7 +258,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/22/r-for-animal-sci.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/22/r-for-animal-sci.html</loc>
       
         <lastmod>2019-01-22T00:00:00+09:00</lastmod>
       
@@ -274,7 +274,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/03/intro-meta-analysis.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/03/intro-meta-analysis.html</loc>
       
         <lastmod>2019-01-03T00:00:00+09:00</lastmod>
       
@@ -290,7 +290,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/03/hypothesis.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/03/hypothesis.html</loc>
       
         <lastmod>2019-01-03T00:00:00+09:00</lastmod>
       
@@ -306,7 +306,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/03/animal-with-data.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/03/animal-with-data.html</loc>
       
         <lastmod>2019-01-03T00:00:00+09:00</lastmod>
       
@@ -322,7 +322,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/presentation/2019/01/03/SARA-meta-analysis.html</loc>
+      <loc>http://localhost:4000/presentation/2019/01/03/SARA-meta-analysis.html</loc>
       
         <lastmod>2019-01-03T00:00:00+09:00</lastmod>
       
@@ -338,7 +338,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2019/01/02/styler-package.html</loc>
+      <loc>http://localhost:4000/r/2019/01/02/styler-package.html</loc>
       
         <lastmod>2019-01-02T00:00:00+09:00</lastmod>
       
@@ -354,7 +354,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2018/12/28/mun-mp.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2018/12/28/mun-mp.html</loc>
       
         <lastmod>2018-12-28T00:00:00+09:00</lastmod>
       
@@ -370,7 +370,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/note/2018/12/26/renew.html</loc>
+      <loc>http://localhost:4000/note/2018/12/26/renew.html</loc>
       
         <lastmod>2018-12-26T00:00:00+09:00</lastmod>
       
@@ -386,7 +386,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2018/09/21/ch4goat-1.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2018/09/21/ch4goat-1.html</loc>
       
         <lastmod>2018-09-21T00:00:00+09:00</lastmod>
       
@@ -402,7 +402,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/09/07/janitor-package.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/09/07/janitor-package.html</loc>
       
         <lastmod>2018-09-07T00:00:00+09:00</lastmod>
       
@@ -418,7 +418,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/animal%20science/2018/07/27/hanwoo-package.html</loc>
+      <loc>http://localhost:4000/r%20packages/animal%20science/2018/07/27/hanwoo-package.html</loc>
       
         <lastmod>2018-07-27T00:00:00+09:00</lastmod>
       
@@ -434,7 +434,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/07/09/librarian.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/07/09/librarian.html</loc>
       
         <lastmod>2018-07-09T00:00:00+09:00</lastmod>
       
@@ -450,7 +450,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/07/06/packagefinder.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/07/06/packagefinder.html</loc>
       
         <lastmod>2018-07-06T00:00:00+09:00</lastmod>
       
@@ -466,7 +466,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2018/07/04/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2018/07/04/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2018-07-04T00:00:00+09:00</lastmod>
       
@@ -482,7 +482,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2018/04/27/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2018/04/27/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2018-04-27T00:00:00+09:00</lastmod>
       
@@ -498,7 +498,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/04/20/emo-package.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/04/20/emo-package.html</loc>
       
         <lastmod>2018-04-20T00:00:00+09:00</lastmod>
       
@@ -514,7 +514,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2018/04/10/kpn-network-full.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2018/04/10/kpn-network-full.html</loc>
       
         <lastmod>2018-04-10T00:00:00+09:00</lastmod>
       
@@ -530,7 +530,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2018/04/06/kpn-network.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2018/04/06/kpn-network.html</loc>
       
         <lastmod>2018-04-06T00:00:00+09:00</lastmod>
       
@@ -546,7 +546,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/04/03/openxlsx.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/04/03/openxlsx.html</loc>
       
         <lastmod>2018-04-03T00:00:00+09:00</lastmod>
       
@@ -562,7 +562,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2018/04/02/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2018/04/02/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2018-04-02T00:00:00+09:00</lastmod>
       
@@ -578,7 +578,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2018/02/28/bizzaro-pipe.html</loc>
+      <loc>http://localhost:4000/r/2018/02/28/bizzaro-pipe.html</loc>
       
         <lastmod>2018-02-28T00:00:00+09:00</lastmod>
       
@@ -594,7 +594,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2018/02/27/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2018/02/27/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2018-02-27T00:00:00+09:00</lastmod>
       
@@ -610,7 +610,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/02/06/thankr.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/02/06/thankr.html</loc>
       
         <lastmod>2018-02-06T00:00:00+09:00</lastmod>
       
@@ -626,7 +626,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2018/02/01/cowsay.html</loc>
+      <loc>http://localhost:4000/r%20packages/2018/02/01/cowsay.html</loc>
       
         <lastmod>2018-02-01T00:00:00+09:00</lastmod>
       
@@ -642,7 +642,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/2018/01/23/Rmarkdown-Jekyll.html</loc>
+      <loc>http://localhost:4000/r/2018/01/23/Rmarkdown-Jekyll.html</loc>
       
         <lastmod>2018-01-23T00:00:00+09:00</lastmod>
       
@@ -658,7 +658,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2017/12/15/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2017/12/15/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2017-12-15T00:00:00+09:00</lastmod>
       
@@ -674,7 +674,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2017/12/14/google-translate-r.html</loc>
+      <loc>http://localhost:4000/r%20packages/2017/12/14/google-translate-r.html</loc>
       
         <lastmod>2017-12-14T00:00:00+09:00</lastmod>
       
@@ -690,7 +690,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r%20packages/2017/12/12/basic-meta-analysis.html</loc>
+      <loc>http://localhost:4000/r%20packages/2017/12/12/basic-meta-analysis.html</loc>
       
         <lastmod>2017-12-12T00:00:00+09:00</lastmod>
       
@@ -706,7 +706,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2017/12/05/rumen-insitu-calculator.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2017/12/05/rumen-insitu-calculator.html</loc>
       
         <lastmod>2017-12-05T00:00:00+09:00</lastmod>
       
@@ -722,7 +722,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/r/animal%20science/2017/12/01/hanwoo-scraping.html</loc>
+      <loc>http://localhost:4000/r/animal%20science/2017/12/01/hanwoo-scraping.html</loc>
       
         <lastmod>2017-12-01T00:00:00+09:00</lastmod>
       
@@ -738,7 +738,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/animal%20science/2017/12/01/animal-nutrition-journal-report.html</loc>
+      <loc>http://localhost:4000/animal%20science/2017/12/01/animal-nutrition-journal-report.html</loc>
       
         <lastmod>2017-12-01T00:00:00+09:00</lastmod>
       
@@ -754,7 +754,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/note/2016/04/24/hello-son.html</loc>
+      <loc>http://localhost:4000/note/2016/04/24/hello-son.html</loc>
       
         <lastmod>2016-04-24T00:00:00+09:00</lastmod>
       
@@ -770,7 +770,7 @@
     </url>
   
     <url>
-      <loc>http://youngjunna.github.io/note/2015/07/04/grandma.html</loc>
+      <loc>http://localhost:4000/note/2015/07/04/grandma.html</loc>
       
         <lastmod>2015-07-04T00:00:00+09:00</lastmod>
       

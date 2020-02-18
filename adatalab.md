@@ -16,7 +16,8 @@ permalink: /apps/
 - [feed](https://github.com/adatalab/feed) for animal feed information.   
 - [hanwoo](https://github.com/adatalab/hanwoo) for modeling the nutrient requirement of Hanwoo cattle.   
 - [dairyCattle](https://github.com/adatalab/dairyCattle) for modeling the nutrient requirement of dairy cattle.
-- [CH4goat](https://github.com/adatalab/CH4goat) for a deep learning models to predict the methane emission from goats.
+- [CH4goat](https://github.com/adatalab/CH4goat) for a deep learning models to predict the methane emission from goats.  
+- [colorhunt](https://github.com/adatalab/colorhunt): Hunt the color insight into the color palette.
 
 --------------
 

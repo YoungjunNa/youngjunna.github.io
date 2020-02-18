@@ -5,9 +5,10 @@ permalink: /apps/
 ---
 
 ### Applications  
-- [새로운 육량등급 시뮬레이터](https://youngjunna.shinyapps.io/hanwoo-new-windex/)   
-- [DairyLab @Haon](https://youngjunna.shinyapps.io/DairyLab-Haon/)   
-- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/)   
+- [DairyLab](https://youngjunna.shinyapps.io/DairyLab-Pro/)   
+- [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/)  
+- 새로운 육량등급 시뮬레이터(expired)   
+ 
 
 --------------
 

@@ -1,0 +1,29 @@
+I"�<h3 id="applications">Applications</h3>
+<ul>
+  <li><a href="https://youngjunna.shinyapps.io/DairyLab-Pro/">DairyLab</a></li>
+  <li><a href="https://youngjunna.shinyapps.io/hanwoolab-example/">HanwooLab</a></li>
+  <li>새로운 육량등급 시뮬레이터(expired)</li>
+</ul>
+
+<hr />
+
+<h3 id="r-packages">R packages</h3>
+<ul>
+  <li><a href="https://github.com/adatalab/feed">feed</a> for animal feed information.</li>
+  <li><a href="https://github.com/adatalab/hanwoo">hanwoo</a> for modeling the nutrient requirement of Hanwoo cattle.</li>
+  <li><a href="https://github.com/adatalab/dairyCattle">dairyCattle</a> for modeling the nutrient requirement of dairy cattle.</li>
+  <li><a href="https://github.com/adatalab/CH4goat">CH4goat</a> for a deep learning models to predict the methane emission from goats.</li>
+  <li><a href="https://github.com/adatalab/colorhunt">colorhunt</a>: Hunt the color insight into the color palette.</li>
+</ul>
+
+<hr />
+
+<h3 id="projects">Projects</h3>
+<ul>
+  <li><a href="http://adatalab.net/asf-timeline/">ASF timeline</a>. 2019</li>
+  <li><a href="https://github.com/YoungjunNa/GIS-livestock-manure.git">Geographic information system (GIS) anlaysis for animal manure treatment in Korea</a>. 2018</li>
+  <li><a href="https://youngjunna.github.io/adatalab/kpn-2017-sample.html">Breeding bull analysis for Hanwoo, KPN: Here in the real world 2017</a>. 2018</li>
+  <li><a href="https://youngjunna.github.io/2018/04/10/kpn-network-full/">Pedigree visualization for Hanwoo</a>. 2018</li>
+</ul>
+
+:ET

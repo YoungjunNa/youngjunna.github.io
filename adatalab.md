@@ -7,9 +7,9 @@ permalink: /apps/
 ### Applications  
 - [DairyLab](https://youngjunna.shinyapps.io/DairyLab-Pro/)   
 - [HanwooLab]( https://youngjunna.shinyapps.io/hanwoolab-example/)  
-- 새로운 육량등급 시뮬레이터(expired)   
+- [G-CoMS](https://github.com/shinykorea/corona-sickbed)
+- A new quantity grade simulator for *Hanwoo* (expired).    
  
-
 --------------
 
 ### R packages  

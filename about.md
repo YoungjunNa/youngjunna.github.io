@@ -102,7 +102,8 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 
 ### Applications  
 - [DairyLab](https://youngjunna.shinyapps.io/dairylab-pro): EDA and modeling tool for nutrition management of dairy cattle.   
-- [HanwooLab](https://youngjunna.shinyapps.io/hanwoolab-example/): EDA and modeling tool for nutrition management of Hanwoo.  
+- [HanwooLab](https://youngjunna.shinyapps.io/hanwoolab-example/): EDA and modeling tool for nutrition management of Hanwoo. 
+- [G-CoMS](https://github.com/shinykorea/corona-sickbed): Gyeonggi sickbed management system for COVID19 patients (w/ Shiny Korea & Gyeonggi-do).
 - A new quantity grade simulator for *Hanwoo* (expired).   
 
 --------------

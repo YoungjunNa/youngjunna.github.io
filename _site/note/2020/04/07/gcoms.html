@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111371471-1"></script>
+  <meta name="google-site-verification" content="ZsK0a8RkMKCROhWp4SovlYHs8RfGYAmp0Wof7lI1ZzI" />
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111371471-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>데이터 과학이 코로나19와 싸우는 또다른 방법</title>
+  <meta name="description" content="경기도 코로나19 긴급대책팀과 shinykorea가 함께 ‘경기도 코로나19 환자관리 시스템’을 개발하였습니다. 3월의 첫째날 오후 미팅 이후, 다음날 새벽에 첫 프로토타입 앱이 만들어 졌고 실제 사용에 배치되기까지 약 보름 정도의 시간이 걸린 것 같습니다. 간단히 설명하자면 갑자...">
+  
+  <meta name="author" content="Youngjun Na">
+  <meta name="copyright" content="&copy; Youngjun Na 2020">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="경기도 코로나19 긴급대책팀과 shinykorea가 함께 ‘경기도 코로나19 환자관리 시스템’을 개발하였습니다. 3월의 첫째날 오후 미팅 이후, 다음날 새벽에 첫 프로토타입 앱이 만들어 졌고 실제 사용에 배치되기까지 약 보름 정도의 시간이 걸린 것 같습니다. 간단히 설명하자면 갑자..." />
+  <meta property="og:url" content="http://localhost:4000" />
+  <meta property="og:site_name" content="Animal Data Laboratory" />
+  <meta property="og:title" content="데이터 과학이 코로나19와 싸우는 또다른 방법" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="데이터 과학이 코로나19와 싸우는 또다른 방법">
+  <meta name="twitter:description" content="경기도 코로나19 긴급대책팀과 shinykorea가 함께 ‘경기도 코로나19 환자관리 시스템’을 개발하였습니다. 3월의 첫째날 오후 미팅 이후, 다음날 새벽에 첫 프로토타입 앱이 만들어 졌고 실제 사용에 배치되기까지 약 보름 정도의 시간이 걸린 것 같습니다. 간단히 설명하자면 갑자...">
+  <meta name="twitter:image" content="http://localhost:4000/assets/logo.png">
+  <meta name="twitter:url" content="http://localhost:4000">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/note/2020/04/07/gcoms.html">
+  <link rel="alternate" type="application/rss+xml" title="Animal Data Laboratory" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Animal Data Laboratory">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">About</a>
+          
+        
+          
+          <li class="nav-link"><a href="/apps/">Applications</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">데이터 과학이 코로나19와 싸우는 또다른 방법</h1>
+      <p class="info">by <strong>Youngjun Na</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">April 7, 2020</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Note">Note</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>경기도 코로나19 긴급대책팀과 <a href="https://github.com/shinykorea">shinykorea</a>가 함께 ‘경기도 코로나19 환자관리 시스템’을 개발하였습니다. 3월의 첫째날 오후 미팅 이후, 다음날 새벽에 첫 프로토타입 앱이 만들어 졌고 실제 사용에 배치되기까지 약 보름 정도의 시간이 걸린 것 같습니다. 간단히 설명하자면 갑자기 경기도에서 많은 확진자가 발생할 경우 확보한 병상을 꼭 필요한 사람에게 적절히 배정하는 의사결정을 도와주어 제한된 의료/병상 자원이 효율적으로 쓰일 수 있게 도와주는 것이 목적입니다. 따라서 코로나19로 확진자가 발생하였을 때 1) 환자의 경중을 빠르게 평가하고(중증도평가) 2) 가용한 병상자원을 빠르게 파악하여 (병상운용현황) 중환자실-일반병상-생활치료센터 등의 원활한 배치에 도움을 주는 웹애플리케이션을 개발하였습니다. 부디 저희의 노력으로 우리 사회가 조금이나마 더 안전해 지는데 기여 했기를 바래 봅니다.</p>
+
+<p>개발은 모두 shiny를 기반으로 이루어 졌습니다. 누군가 R과 샤이니는 안정성이 떨어져 실제 서비스로 사용하기가 어렵다고 하는 이야기를 들은 적이 있습니다. 일부는 인정하는 부분이지만 수천명에게 반응성앱을 서비스 할 것이 아니라면, 샤이니는 1) 데이터 분석가의 지식과 경험을 담아 2) 필요한 기능을 3) 빠르게 제공하기에 매우 좋은 툴이라고 자신있게 이야기 할 수 있습니다. 아마 전문적인 대시보드 제작자들이 보기에 미려함은 한참 못미칠 것입니다. 우리는 데이터를 직접 세밀하게 분석하지도 않았고 대단한 머신러닝 모델을 만들지도 않았습니다. 다만 전문 지식을 가진 의사결정권자들이 조금 더 빠르고 정확하게 의사결정을 내릴 수 있도록 (그분들의 경험과 지식이라는 학습모델을 담아) 필요한 데이터를 적절하게 시각화 하고 인사이트를 제공하는 역할을 했을 뿐입니다.</p>
+
+<p>코로나19가 언제 끝날지는 아무도 모릅니다. 사실 우리가 맞닥뜨리는 대부분의 문제는 답이 없는 경우가 많은 것 같습니다. 치료제의 개발이라던가 대단한 예측모델을 만드는 것보다 멋지지 않을수도 있지만 후방에서 만든 이 작은 시스템이 코로나19 최전선에서 싸우는 용사들에게 힘을 실어 줄 수 있길 바래 봅니다. 오늘도 각자의 자리에서 코로나19와 싸우고 있을 모두에게 경의를 표합니다.</p>
+
+<p>병상운용앱: https://github.com/shinykorea/corona-sickbed<br />
+중증도분류앱: https://github.com/shinykorea/corona-triage</p>
+
+  <p><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://youngjunna.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</p>
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Animal Data Laboratory</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">About</a>
+        
+        
+        
+          <li class="nav-link"><a href="/apps/">Applications</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:ruminoreticulum@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">ruminoreticulum@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://github.com/youngjunna" title="GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Youngjun Na</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.instagram.com/youngjun_na/" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">Youngjun Na</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">animal science; nutrition modeling; R; Shiny; machine learning</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-111371471-1', 'auto');
+  ga('send', 'pageview', {
+    'page': '/note/2020/04/07/gcoms.html',
+    'title': '데이터 과학이 코로나19와 싸우는 또다른 방법'
+  });
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,4 +1,4 @@
-I"«'<p><img src="/assets/animaldata.png" title="Profile Picture" class="profile" /></p>
+I"ž'<p><img src="/assets/animaldata.png" title="Profile Picture" class="profile" /></p>
 
 <p><strong>animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; want to be a good father, son, and hubby.</strong></p>
 
@@ -111,7 +111,7 @@ Effects of feeding level on nutrient digestibility and enteric methane productio
 
 <h3 id="applications">Applications</h3>
 <ul>
-  <li><a href="https://youngjunna.shinyapps.io/dairylab-pro">DairyLab</a>: EDA and modeling tool for nutrition management of dairy cattle.</li>
+  <li><a href="http://app.antller.com/dairylab">DairyLab</a>: EDA and modeling tool for nutrition management of dairy cattle.</li>
   <li><a href="https://youngjunna.shinyapps.io/hanwoolab-example/">HanwooLab</a>: EDA and modeling tool for nutrition management of Hanwoo.</li>
   <li><a href="https://github.com/shinykorea/corona-sickbed">G-CoMS</a>: Gyeonggi sickbed management system for COVID19 patients (w/ Shiny Korea &amp; Gyeonggi-do).</li>
   <li>A new quantity grade simulator for <em>Hanwoo</em> (expired).</li>

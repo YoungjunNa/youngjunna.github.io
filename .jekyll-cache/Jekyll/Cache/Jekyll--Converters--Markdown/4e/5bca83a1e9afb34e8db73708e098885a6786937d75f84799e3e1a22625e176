@@ -1,0 +1,128 @@
+I"�)<p><img src="/assets/animaldata.png" title="Profile Picture" class="profile" /></p>
+
+<p><strong>animal science; ruminant nutrition; nutrition modeling; R; Shiny; machine learning; want to be a good father, son, and hubby.</strong></p>
+
+<hr />
+
+<h1 id="youngjun-na-phd">Youngjun Na, PhD</h1>
+<p>Department of Animal Science and Technology, Konkuk University<br />
+120 Neungdong-ro, Gwangjin-gu, Seoul 05029. Republic of Korea</p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>library(youngjunna)  
+
+# Research ----
+Category &lt;- “Animal science”
+Category$major &lt;- “Ruminant nutrition 🐄🐂🐏🦌”
+Research &lt;- lapply(AnimalScience, function(x) DataScience(x) * R(x))
+
+# Summary ----
+Animal %&gt;%
+  Ruminant(for = c(“dairy”, “beef”, “environment”)) %&gt;%
+  Nutrition(for = c(“productivity”, “behavior”, “welfare”)) %&gt;%
+  Modeling(method = “ML”) %&gt;%
+  R(for = c(“meta-analysis”, “data wrangling”, “visualization”, “Shiny”))  
+</code></pre></div></div>
+<hr />
+<h2 id="education">EDUCATION</h2>
+<h3 id="konkuk-university-seoul-republic-of-korea"><strong>Konkuk University</strong>, Seoul, Republic of Korea</h3>
+<ul>
+  <li><strong>Ph.D.</strong>, Animal Science	Mar 2014 – Feb 2017</li>
+  <li>M.Sc., Animal Science	Sep 2011 – Feb 2014</li>
+  <li>B.Sc., Animal Science	Mar 2006 – Aug 2011</li>
+</ul>
+
+<hr />
+
+<h2 id="publications">PUBLICATIONS</h2>
+<ul>
+  <li>Choi Y., S. Lee, and <strong>Y. Na</strong>. 2020. Effects of a pineapple (Ananas comosus <em>L</em>.) cannery by-product on growth performance and carcass characteristics in the finishing stage of Hanwoo steer. Asian-Australasian Journal of Animal Sciences.</li>
+  <li>Choi Y., J. Kim, H. Lee, K. Park, H. Kwon, <strong>Y. Na</strong>, and S. Lee. 2020. Modeling methane potential yield and chemical composition of bedded pack barn cattle manure: Influence of cattle, season, growth stage, its retention time and particle distribution. Journal of Material Cycles and Waste Management.</li>
+  <li>Kang H., S. Kang, <strong>Y. Na</strong>, H. Kwon, and S. Lee. 2019. Effect of feeding frequency on growth performance, nutrient digestibility, diarrhea incidence and blood profiles in weaning pigs. Indian Journal of Animal Sciences 89(8): 885-888.</li>
+  <li>Choi Y., J. Rim, H. Lee, H. Kwon, <strong>Y. Na</strong>, and S. R. Lee. 2019. Effect of fermented spent instant coffee grounds on milk productivity and blood profiles of lactating dairy cows. 2019. Asian-Australasian Journal of Animal Sciences 32(7): 1007-1014.</li>
+  <li><strong>Na, Y.</strong>, D. H. Li, Y. Choi, K. H. Kim, and S. R. Lee. 2018.
+Effects of feeding level on nutrient digestibility and enteric methane production in growing goats (<em>Capra hircus hircus</em>) and Sika deer (<em>Cervus nippon hortulorum</em>). Asian-Australasian Journal of Animal Sciences 31(8): 1238-43.</li>
+  <li><strong>Na, Y.</strong>, S. Hwang, Y. Choi, G. Park, and S. R. Lee. 2018. Nutrient Digestibility and Greenhouse Gas Emission in Castrated Goats (<em>Capra Hircus</em>) Fed Various Roughage Sources. Journal of The Korean Society of Grassland and Forage Science 38(1): 39-43.</li>
+  <li>Bharanidharan R., Y. Woo, C. Lee, <strong>Y. Na</strong>, D. Kim, and K. H. Kim. 2018. Effect of Feeding Method on Methane Production per Dry Matter Intake in Holstein Steers. Journal of The Korean Society of Grassland and Forage Science 38(4): 262-67.</li>
+  <li>Choi Y., E. C. Lee, <strong>Y. Na</strong>, and S. R. Lee. 2018. Effects of dietary supplementation with fermented and non-fermented brown algae by-products on laying performance, egg quality and blood profile in laying hens. Asian-Australasian Journal of Animal Sciences 31(10): 1654-1659.</li>
+  <li>Bharanidharan R., S. Arokiyaraj, E. B. Kim, C. H. Lee, Y. W. Woo, <strong>Y. Na</strong>, D. Kim, and K. H. Kim. 2018. Ruminal methane emissions, metabolic, and microbial profile of Holstein steers fed forage and concentrate, separately or as a total mixed ration. PLOS ONE 13(8): e0202446.</li>
+  <li>Choi Y., J. Rim, <strong>Y. Na</strong>, and S. R. Lee. 2017. Effects of dietary fermented spent coffee ground on nutrient digestibility and nitrogen utilization in sheep. Asian-Australasian Journal of Animal Sciences 31(3): 363-68.</li>
+  <li><strong>Na, Y.</strong>, D. H. Li, and S. R. Lee. 2017. Effects of dietary forage-to-concentrate ratio on nutrient digestibility and enteric methane production in growing goats (<em>Capra hircus hircus</em>) and Sika deer (<em>Cervus nippon hortulorum</em>). Asian-Australasian Journal of Animal Sciences 30(7): 967–72.</li>
+  <li><strong>Na, Y.</strong>, J. S. Rim, J. Y. Bang, and S. R. Lee. 2016. Evaluation of the Milk Productivity and Nutrient Balance of Forage Sources for Organic Dairy Farms in Korea. Journal of The Korean Society of Grassland and Forage Science 36(2): 98–103.</li>
+  <li><strong>Na, Y.</strong>, I. H. Lee, S. S. Park, and S. R. Lee. 2014. Effects of Combination of Rice Straw with Alfalfa Pellet on Milk Productivity and Chewing Activity in Lactating Dairy Cows. Asian-Australasian Journal of Animal Sciences 27(7): 960–64.</li>
+  <li><strong>Na, Y.</strong>, K. W. Lee, K. H. Hong, J. S. Rim, M. H. Kim, K. H. Kim, and S. R. Lee. 2013. Evaluations of Nutrient Compositions and In Situ Ruminal Disappearance Rates of Roughage Sources Commonly Used in Korea. Journal of The Korean Society of Grassland and Forage Science 33(4): 269–74.</li>
+</ul>
+
+<hr />
+<h2 id="abstracts">ABSTRACTS</h2>
+<ul>
+  <li>Bae, Y., S. R. Lee, E. Lee, J. Ahn, <strong>Y. Na</strong>, H. Kang, S. Park, D. Kolbasov, B Jeon, and H. Lee. 2019. Development of rapid molecular diagnosis method for African Swine Fever Virus using Recombinase and Polymerase Amplification. 7th International Congress and Expo on Bioscience and Biotechnology.</li>
+  <li>Kim, J., <strong>Y. Na</strong> and S. R. Lee. 2018. Artificial neural networks model for predicting enteric methane emission from goats. 2018 Annual Congress of KSAST.</li>
+  <li><strong>Na, Y.</strong> and S. R. Lee. 2017. Effects of increasing pineapple (<em>Ananas comosus</em> L.) cannery by-product inclusion level on growth performance, blood parameters, carcass characteristics, and longissimus muscle fatty acid and free amino acid composition of growing-finishing Hanwoo (<em>Bos Taurus coreanae</em>) steers. ASAS-CSAS Annual meeting.</li>
+  <li><strong>Na, Y.</strong>, W. Y. Jeong, O. H. Yi, S. J. Hwang and S. R. Lee. 2013. Model for estimating enteric methane emissions from black goat. ADSA-ASAS Joint Annual Meeting.</li>
+  <li><strong>Na, Y.</strong>, S. J. Hwang, S. S. Park, I. H. Lee, K. T. Nam and S. R. Lee. 2012. Effects of Feeding Rice Straw and Alfalfa Pellet as Roughage Sources on Milk Productivity and Chewing Behavior in Mid-Lactating Dairy Cows. Asian-Australasian Association of Animal Production Societies.</li>
+</ul>
+
+<hr />
+<h2 id="dissertation--thesis">DISSERTATION &amp; THESIS</h2>
+<ul>
+  <li><strong>Na, Y.</strong> 2017. Feeding value of pineapple (<em>Ananas comosus</em> L.) cannery by-product and its effect on the productivity and carcass characteristics of Hanwoo steers.” 2017. Dissertation. Konkuk University.</li>
+  <li><strong>Na, Y.</strong> 2014. A study on the model estimating of enteric methane emission in black goats. 2014. Thesis. Konkuk University.</li>
+</ul>
+
+<hr />
+<h2 id="lectures">LECTURES</h2>
+<ul>
+  <li><a href="https://github.com/YoungjunNa/Grassland-and-forage-science/blob/master/README.md">Grassland and forage science</a>. Konkuk University. Spring 2019-20</li>
+  <li><a href="https://github.com/YoungjunNa/intelligent-livestock-facilities/blob/master/README.md">Intelligent livestock facilities</a>. Konkuk University. Fall 2019</li>
+  <li>Animal science seminar (Grad school). Konkuk University. Fall 2019</li>
+  <li>Advanced animal environment (Grad school). Konkuk University. Fall 2019</li>
+  <li><a href="https://youngjunna.github.io/animal-environmental-science/">Animal environmental science</a>. Konkuk University. Spring 2019</li>
+  <li><a href="https://github.com/YoungjunNa/2019-animal-nutrition-and-the-environment">Animal nutrition and the environment (Grad school)</a>. Konkuk University. Spring 2019</li>
+  <li>Life science. Jangan University. Spring 2019</li>
+  <li><a href="https://github.com/YoungjunNa/2018_breeding_science">Animal breeding</a>. Seojeong College. Spring 2018</li>
+  <li><a href="https://github.com/YoungjunNa/2018_animal_nutrition_and_feeding">Animal nutrition and feeding</a>. Seojeong College. Spring 2017-2018</li>
+  <li><a href="https://github.com/YoungjunNa/2017_advanced_biological_statics">Advanced biological statics (Grad school)</a>. Konkuk University. Fall 2017</li>
+  <li>Animal nutrition. Korea Open University. Fall 2017</li>
+</ul>
+
+<hr />
+<h2 id="committee">COMMITTEE</h2>
+<ul>
+  <li>Member of the Hanwoo subcommittee. Korea Livestock Feeding Standard, RDA. 2018 - 2021</li>
+</ul>
+
+<hr />
+
+<h2 id="oda">ODA</h2>
+<ul>
+  <li>Preliminary investigator. Vietnam National University of Agriculture, Vietnam. KOICA. Dec 2019</li>
+</ul>
+
+<hr />
+<h2 id="programming">PROGRAMMING</h2>
+<h3 id="r-packages">R packages</h3>
+<ul>
+  <li><a href="https://github.com/adatalab/feed">feed</a>: A tool for getting the information of animal feeds.</li>
+  <li><a href="https://github.com/adatalab/hanwoo">hanwoo</a>: A system for modeling the nutrient requirement of <em>Hanwoo</em> cattle.</li>
+  <li><a href="https://github.com/adatalab/dairyCattle">dairyCattle</a>: A system for visualization and modeling the nutrient requirement of dairy cattle.</li>
+  <li><a href="https://github.com/adatalab/CH4goat">CH4goat</a>: A artificial neural network models to predict the methane emission from goats.</li>
+  <li><a href="https://github.com/adatalab/colorhunt">colorhunt</a>: Hunt the color insight into the color palette.</li>
+</ul>
+
+<h3 id="applications">Applications</h3>
+<ul>
+  <li><a href="http://app.antller.com/dairylab">DairyLab</a>: EDA and modeling tool for nutrition management of dairy cattle.</li>
+  <li><a href="https://youngjunna.shinyapps.io/hanwoolab-example/">HanwooLab</a>: EDA and modeling tool for nutrition management of Hanwoo.</li>
+  <li><a href="https://github.com/shinykorea/corona-sickbed">G-CoMS</a>: Gyeonggi sickbed management system for COVID19 patients (w/ Shiny Korea &amp; Gyeonggi-do).</li>
+  <li>A new quantity grade simulator for <em>Hanwoo</em> (expired).</li>
+</ul>
+
+<hr />
+
+<h2 id="discography">DISCOGRAPHY</h2>
+<ul>
+  <li>Keyboardist, Booze-Up, <a href="http://www.melon.com/album/detail.htm?albumId=2094686">Yousil (2013)</a></li>
+</ul>
+:ET

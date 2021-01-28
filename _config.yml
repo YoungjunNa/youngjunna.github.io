@@ -11,9 +11,9 @@ exclude:
 
 # Site settings
 title: Animal Data Laboratory
-subtitle: "Adventure of lifetime with animal science, machine learning, shiny, and R"
-email: ruminoreticulum@gmail.com
-name: Youngjun Na
+subtitle: "Technical Blog"
+email: official@antller.com
+name: 주식회사 앤틀러
 description: animal science; nutrition modeling; R; Shiny; machine learning
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
@@ -85,15 +85,15 @@ descriptions:
 social:
   - name: GitHub
     icon: github
-    username: Youngjun Na
-    url: https://github.com/youngjunna
+    username: Antller Inc.
+    url: https://github.com/adatalab
     desc: GitHub
     share: true
 
   - name: Instagram
     icon: instagram
-    username: Youngjun Na
-    url: https://www.instagram.com/youngjun_na/
+    username: Animal Data Lab.
+    url: https://www.instagram.com/animaldatalab
     desc: Follow me on Instagram
     share: true
 

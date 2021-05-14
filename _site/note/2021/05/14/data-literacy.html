@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111371471-1"></script>
+  <meta name="google-site-verification" content="ZsK0a8RkMKCROhWp4SovlYHs8RfGYAmp0Wof7lI1ZzI" />
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111371471-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>광석이 형님에게 배우는 데이터 리터러시</title>
+  <meta name="description" content="">
+  
+  <meta name="author" content="주식회사 앤틀러">
+  <meta name="copyright" content="&copy; 주식회사 앤틀러 2021">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/adatalab.png" type="image/x-icon">
+  <link rel="icon" href="" type="image/x-icon">
+  <!-- <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="http://localhost:4000" />
+  <meta property="og:site_name" content="Animal Data Laboratory" />
+  <meta property="og:title" content="광석이 형님에게 배우는 데이터 리터러시" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://localhost:4000/assets/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="612" />
+  <meta property="og:image:height" content="605" />
+  
+
+  
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="광석이 형님에게 배우는 데이터 리터러시">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://localhost:4000/assets/logo.png">
+  <meta name="twitter:url" content="http://localhost:4000">
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/note/2021/05/14/data-literacy.html">
+  <link rel="alternate" type="application/rss+xml" title="Animal Data Laboratory" href="http://localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="Animal Data Laboratory">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">Posts</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">광석이 형님에게 배우는 데이터 리터러시</h1>
+      <p class="info">by <strong>Youngjun Na</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+ <span class="page-divider">
+  <span class="one"></span>
+  <span class="two"></span>
+</span>
+ 
+
+<section class="post-meta">
+  <div class="post-date">May 14, 2021</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/Note">Note</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p><img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80" alt="" /></p>
+
+<h3 id="김광석의-노래">김광석의 노래</h3>
+
+<p>김광석의 음악에 한번도 마음이 움직이지 않았던 사람이 있을까. 훈련소로 입소하기 전날 밤, 갓 서른이 되었던 어느 겨울날, 사랑하는 할머니가 돌아가셨던 해 가을과 같이 인생의 계절마다 그의 노래는 내게 위로가 되어 주었다. 대학시절 노래패 형들은 그를 언급해야 할 때마다 꼭 형님을 붙여 이야기 했다. 생전 얼굴한번 마주본 적 없는 사람에게 말이다. 그게 영 싫지는 않았는지 언젠가부터 자연스레 나도 그를 광석이 형님이라 부르고 있었다.</p>
+
+<p>이십대 초반, 그때의 나는 형님의 ‘서른즈음’이라는 노래를 나름 맛깔나게 부를 수 있었다 생각했었다. 정작 서른이 넘어 그때를 돌아보면 호기 부리던 모습이 이리 부끄러울 수가 없다. 하지만 결코 그 때와 같은 감정이 실린 ‘이등병의 편지’는 부를 수 없으리라. 만약 광석이 형님이 살아 계셔서 중년의 해석으로 이등병의 편지를 불렀다면 어땠을까? 어쩌면 미련만 남긴 채 레코딩 된 그 시절의 목소리만 남아 있는 것이 더 좋을 지도 모르겠다.</p>
+
+<p>광석이 형님의 목소리에는 특별함이 있었다. 아마도 <strong>그 특별함은 삶에 대한 깊은 이해와 성찰에서 나왔을 것이다.</strong> 입영 열차 안에서, 거리에서, 그녀가 처음 울던 날에, 흐린 가을 하늘 아래서 보낸 눈물과 기쁨의 시간들을 보내며 면밀이 묵상한 본인의 작은 삶 한조각 한조각이 그 안에 담겼으리라. 아직도 그 목소리가 우리의 마음을 움직이고 있다.</p>
+
+<h3 id="광석이-형님에게-배우는-데이터-리터러시">광석이 형님에게 배우는 데이터 리터러시</h3>
+
+<blockquote>
+  <p>Data literacy is the ability to read, understand, create, and communicate data as information. Much like literacy as a general concept, data literacy focuses on the competencies involved in working with data.  — Wikipedia</p>
+</blockquote>
+
+<p>데이터 리터러시(Data Literacy)는 데이터를 해석하는 능력을 이야기 한다. 우리말로 하면 데이터 문해력 정도로 말해도 될 것이다. 내가 보는 붓꽃 데이터와 식물학자가 보는 붓꽃 데이터는 같지 않다. 난 그저 꽃잎의 길이와 너비 정도밖에 볼 수 없지만, 식물학자는 붓꽃의 씨앗과, 자라는 과정, 그리고 그것이 심겨진 흙까지 생각하리라. 우리는 아마도 어떻게든 기술적으로 데이터로 상관분석을 하고 모델을 만들 수 있겠지만, 그 뒤에 있는 문맥을 해석하기 위해서는 수많은 고민의 시간들이 소요된다.</p>
+
+<p>데이터는 마지막에 ‘어떻게’ 활용 될 것이냐에 대한 구체적인 목표가 있어야 한다. 그렇기 위해선 데이터가 쓰일 산업에 대한 깊은 이해가 필요하다. 무섭게 적재되어 있는 빅데이터를 갖고만 있는 것은 자랑이 아니다. 데이터베이스를 귀신같이 다루고 천재적인 프로그래밍 능력만이 중요한 것이 아니다. 데이터는 문제를 찾고 해결하는데 쓰여야 한다는 본질보다 모델의 성능지표를 중요시 하는 사람들이 생각보다 많다(그리고 그런 사람들이 심사위원 또는 리뷰어가 될 때 굉장피 피곤한 일들이 일어난다).</p>
+
+<p>대단한 AI를 만들기 보다는 광석이 형님의 음악같은 데이터과학을 하고 싶다.</p>
+
+  <p><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://youngjunna.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+</p>
+</article>
+
+
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">Animal Data Laboratory</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">Posts</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:official@antller.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">official@antller.com</span>
+          </a>
+        </li>
+
+        
+          
+          <li>
+            <a href="https://github.com/adatalab" title="GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">Antller Inc.</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.instagram.com/animaldatalab" title="Follow me on Instagram">
+              <i class="fa fa-instagram"></i>
+              <span class="username">Animal Data Lab.</span>
+            </a>
+          </li>
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">animal science; nutrition modeling; R; Shiny; machine learning</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-111371471-1', 'auto');
+  ga('send', 'pageview', {
+    'page': '/note/2021/05/14/data-literacy.html',
+    'title': '광석이 형님에게 배우는 데이터 리터러시'
+  });
+</script>
+
+
+
+  </body>
+
+</html>
